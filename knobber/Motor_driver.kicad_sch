@@ -453,6 +453,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-PowerSymbol:5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5V"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"5V\""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-PowerSymbol:GND"
 			(power)
 			(pin_names
@@ -1152,12 +1275,6 @@
 		(uuid "39498e67-b3a1-4dcc-85a1-693050596d20")
 	)
 	(junction
-		(at 110.49 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c50a35a-c553-418d-b5a5-0bc73b47d3c8")
-	)
-	(junction
 		(at 71.12 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1170,19 +1287,13 @@
 		(uuid "5c607a2b-b979-4544-b7c0-a75dcbfd7215")
 	)
 	(junction
-		(at 226.06 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6540cbc3-e32d-4955-88e9-8a825856ccad")
-	)
-	(junction
 		(at 137.16 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "714f2673-f3db-49ea-bacb-79692482b08a")
 	)
 	(junction
-		(at 137.16 111.76)
+		(at 130.81 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c7db3b5-dbcf-46f9-b1c8-d82a43f3573d")
@@ -1212,10 +1323,22 @@
 		(uuid "90a0f65d-414b-41ae-85a2-2e312095b62c")
 	)
 	(junction
+		(at 226.06 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94b9a4e4-ab7f-470e-b550-528878a18095")
+	)
+	(junction
 		(at 60.96 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a073429-e998-44ad-98d5-6c1b6caf9da3")
+	)
+	(junction
+		(at 110.49 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3198543-3b98-46a5-9af9-62df173fdad1")
 	)
 	(junction
 		(at 71.12 101.6)
@@ -1351,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 125.73)
+			(xy 130.81 111.76) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1431,16 +1554,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 95.25) (xy 226.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd97d01-6746-4598-a823-02e5a7877ae6")
-	)
-	(wire
-		(pts
 			(xy 71.12 101.6) (xy 152.4 101.6)
 		)
 		(stroke
@@ -1461,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 137.16 135.89)
+			(xy 130.81 133.35) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1518,6 +1631,16 @@
 			(type default)
 		)
 		(uuid "4038d684-efa3-41c7-a9ae-a3181a81afaf")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f47398-5106-4201-912d-03a431be4564")
 	)
 	(wire
 		(pts
@@ -1681,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 152.4 111.76)
+			(xy 130.81 111.76) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1721,16 +1844,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 110.49 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85fd5343-c53d-41b2-bd6e-4b1ba8648113")
-	)
-	(wire
-		(pts
 			(xy 148.59 78.74) (xy 148.59 76.2)
 		)
 		(stroke
@@ -1761,17 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 137.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd2f847-024a-47bc-ad5f-b799b388e8ae")
-	)
-	(wire
-		(pts
-			(xy 132.08 109.22) (xy 152.4 109.22)
+			(xy 148.59 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2021,6 +2124,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 64.77) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e822d1aa-f429-44f3-acd8-f0487352ad3a")
+	)
+	(wire
+		(pts
 			(xy 148.59 76.2) (xy 152.4 76.2)
 		)
 		(stroke
@@ -2038,6 +2151,16 @@
 			(type default)
 		)
 		(uuid "edf54342-9418-4034-b741-d2a27eb2ca79")
+	)
+	(wire
+		(pts
+			(xy 226.06 93.98) (xy 226.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6a5961-c8c3-4992-87ba-1fba648b0e23")
 	)
 	(wire
 		(pts
@@ -2099,18 +2222,7 @@
 		)
 		(uuid "fd03edeb-14ed-4062-9512-8cea20fb7093")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 222.25 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0113637c-3278-4d92-a6ea-681db709f00f")
-	)
-	(hierarchical_label "Motor_WH"
+	(hierarchical_label "MOT_WH"
 		(shape input)
 		(at 57.15 101.6 180)
 		(effects
@@ -2121,7 +2233,7 @@
 		)
 		(uuid "49b0e356-ec8a-40fa-87c1-d5ddad70cf43")
 	)
-	(hierarchical_label "Motor_W"
+	(hierarchical_label "MOT_W"
 		(shape output)
 		(at 194.31 81.28 0)
 		(effects
@@ -2132,7 +2244,7 @@
 		)
 		(uuid "4fd3b380-ed2c-4b13-aa46-f23d07f06207")
 	)
-	(hierarchical_label "Motor_U"
+	(hierarchical_label "MOT_U"
 		(shape output)
 		(at 194.31 76.2 0)
 		(effects
@@ -2143,7 +2255,7 @@
 		)
 		(uuid "6ffd1ea4-5314-49eb-9cb8-6316f85d2f57")
 	)
-	(hierarchical_label "Motor_V"
+	(hierarchical_label "MOT_V"
 		(shape output)
 		(at 194.31 78.74 0)
 		(effects
@@ -2154,7 +2266,7 @@
 		)
 		(uuid "7061d2bd-d182-4b83-a148-238a3ef21e95")
 	)
-	(hierarchical_label "Motor_VH"
+	(hierarchical_label "MOT_VH"
 		(shape input)
 		(at 57.15 93.98 180)
 		(effects
@@ -2165,7 +2277,7 @@
 		)
 		(uuid "96cf8b44-9809-406f-b004-4c3f170a7dad")
 	)
-	(hierarchical_label "Motor_WL"
+	(hierarchical_label "MOT_WL"
 		(shape input)
 		(at 57.15 104.14 180)
 		(effects
@@ -2176,7 +2288,7 @@
 		)
 		(uuid "9d77a4ed-b5ea-4f79-a01b-3f6292dda661")
 	)
-	(hierarchical_label "Motor_UH"
+	(hierarchical_label "MOT_UH"
 		(shape input)
 		(at 57.15 86.36 180)
 		(effects
@@ -2187,7 +2299,7 @@
 		)
 		(uuid "a6b5356f-a99e-420b-89d1-accdde3125a7")
 	)
-	(hierarchical_label "Motor_UL"
+	(hierarchical_label "MOT_UL"
 		(shape input)
 		(at 57.15 88.9 180)
 		(effects
@@ -2198,20 +2310,9 @@
 		)
 		(uuid "b53c6c59-0eab-4c1a-b629-f2080def2598")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 132.08 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0127bae-50d5-44f4-8eee-6a1925878abf")
-	)
-	(hierarchical_label "Motor_Diag"
+	(hierarchical_label "MOT_DIAG"
 		(shape output)
-		(at 132.08 109.22 180)
+		(at 148.59 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,18 +2321,7 @@
 		)
 		(uuid "d1a2b8fb-5724-4c65-ac80-081a8eeab532")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 104.14 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dde0eb65-301e-4d14-b07e-629d2f8c49e0")
-	)
-	(hierarchical_label "Motor_VL"
+	(hierarchical_label "MOT_VL"
 		(shape input)
 		(at 57.15 96.52 180)
 		(effects
@@ -2242,7 +2332,7 @@
 		)
 		(uuid "efd2fbd5-7bda-4549-8003-110b24bdc612")
 	)
-	(hierarchical_label "Motor_Sens"
+	(hierarchical_label "MOT_SENS"
 		(shape output)
 		(at 245.11 106.68 0)
 		(effects
@@ -2255,15 +2345,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 129.54 0)
+		(at 130.81 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "033226d3-be13-4940-8831-729bdf4badec")
-		(property "Reference" "C602"
-			(at 140.97 128.2699 0)
+		(property "Reference" "C603"
+			(at 134.62 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2362,7 @@
 			)
 		)
 		(property "Value" "0.1nF"
-			(at 140.97 130.8099 0)
+			(at 134.62 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,8 +2370,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 138.1252 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 131.7752 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 129.54 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2389,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 129.54 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2398,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 142.748 133.35 0)
+			(at 136.398 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2414,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "C602")
+					(reference "C603")
 					(unit 1)
 				)
 			)
@@ -2340,7 +2430,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "03bddaeb-a006-4403-8bff-862ad2a185f9")
-		(property "Reference" "R605"
+		(property "Reference" "R603"
 			(at 83.82 115.5699 0)
 			(effects
 				(font
@@ -2358,7 +2448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.058 116.84 90)
 			(effects
 				(font
@@ -2394,7 +2484,74 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R605")
+					(reference "R603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 110.49 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05e68ed8-f840-41c1-8409-c5c399c75de3")
+		(property "Reference" "#PWR0602"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 110.49 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a2b8080-d7b1-4ed6-8a92-88bc1fc557ed")
+		)
+		(instances
+			(project "knobber"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -2410,7 +2567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "061a202c-cb3c-4ad7-8326-be4fe552172d")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR0608"
 			(at 148.59 142.24 0)
 			(effects
 				(font
@@ -2461,7 +2618,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0605")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a73fe97-b639-4a6c-8b0f-adc906ad8461")
-		(property "Reference" "C604"
+		(property "Reference" "C602"
 			(at 128.27 69.8499 0)
 			(effects
 				(font
@@ -2494,7 +2651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 74.93 0)
 			(effects
 				(font
@@ -2538,7 +2695,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "C604")
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc0a9b7-bc10-474d-abfd-43811955d8ea")
-		(property "Reference" "U104"
+		(property "Reference" "U601"
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -2570,7 +2727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC6300-LA-T:QFN40P300X300X90-21N"
+		(property "Footprint" "TMC6300:QFN40P300X300X90-21N"
 			(at 171.45 66.548 0)
 			(effects
 				(font
@@ -2784,7 +2941,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "U104")
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -2800,7 +2957,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "191c5819-d87c-433f-8c73-7da058ad431e")
-		(property "Reference" "R607"
+		(property "Reference" "R605"
 			(at 104.14 115.5699 0)
 			(effects
 				(font
@@ -2818,7 +2975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 103.378 116.84 90)
 			(effects
 				(font
@@ -2854,7 +3011,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R607")
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -2869,7 +3026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24cae698-b2cb-40e8-a8fc-62946fee5317")
-		(property "Reference" "C105"
+		(property "Reference" "C605"
 			(at 198.12 128.2699 0)
 			(effects
 				(font
@@ -2887,7 +3044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2752 133.35 0)
 			(effects
 				(font
@@ -2931,7 +3088,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "C105")
+					(reference "C605")
 					(unit 1)
 				)
 			)
@@ -2947,7 +3104,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2d00cac5-33d1-443f-b81e-0432a407893a")
-		(property "Reference" "R105"
+		(property "Reference" "R607"
 			(at 196.85 107.9499 0)
 			(effects
 				(font
@@ -2965,7 +3122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 196.088 109.22 90)
 			(effects
 				(font
@@ -3001,7 +3158,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R105")
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3174,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a4301be-3e49-4e86-b9c7-42eadfb8df7a")
-		(property "Reference" "R604"
+		(property "Reference" "R602"
 			(at 73.66 115.5699 0)
 			(effects
 				(font
@@ -3035,7 +3192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.898 116.84 90)
 			(effects
 				(font
@@ -3071,7 +3228,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R604")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e2e1d11-c6bf-4daa-a567-f7f9d1413256")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0609"
 			(at 194.31 121.92 0)
 			(effects
 				(font
@@ -3138,7 +3295,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0115")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -3154,7 +3311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61a4ae2c-7104-4959-b6e7-adabdba00707")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0614"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -3205,7 +3362,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0602")
+					(reference "#PWR0614")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3378,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "682be860-3c05-41d3-b55b-89dc945d9240")
-		(property "Reference" "R601"
+		(property "Reference" "R608"
 			(at 214.63 137.1599 0)
 			(effects
 				(font
@@ -3275,7 +3432,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R601")
+					(reference "R608")
 					(unit 1)
 				)
 			)
@@ -3291,7 +3448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69684518-a8a4-4e99-ade6-f45b87b9aa23")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0611"
 			(at 212.09 151.13 0)
 			(effects
 				(font
@@ -3342,7 +3499,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0603")
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e657cf2-a13b-40b0-9537-29c9e5bb0a27")
-		(property "Reference" "#PWR0601"
+		(property "Reference" "#PWR0613"
 			(at 226.06 123.19 0)
 			(effects
 				(font
@@ -3409,7 +3566,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0601")
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3582,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7198ee0e-63d2-4f9f-9be5-6108edc88198")
-		(property "Reference" "U105"
+		(property "Reference" "U602"
 			(at 238.76 100.2598 0)
 			(effects
 				(font
@@ -3487,7 +3644,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "U105")
+					(reference "U602")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e575472-3e95-4782-aa83-a356f8646cf1")
-		(property "Reference" "C605"
+		(property "Reference" "C601"
 			(at 114.3 69.8499 0)
 			(effects
 				(font
@@ -3564,7 +3721,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "C605")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -3580,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a2d9c8-534c-47a5-8cc9-09b8bca89568")
-		(property "Reference" "#PWR0609"
+		(property "Reference" "#PWR0601"
 			(at 60.96 130.81 0)
 			(effects
 				(font
@@ -3631,7 +3788,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0609")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -3646,7 +3803,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "89afaa61-4df2-481f-84aa-c463861abb1b")
-		(property "Reference" "C601"
+		(property "Reference" "C606"
 			(at 233.68 86.36 90)
 			(effects
 				(font
@@ -3662,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 94.2848 0)
 			(effects
 				(font
@@ -3706,7 +3863,7 @@
 		(instances
 			(project ""
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "C601")
+					(reference "C606")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3879,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90dbcc3e-eb43-4530-b454-08bc8d97eab0")
-		(property "Reference" "R603"
+		(property "Reference" "R601"
 			(at 63.5 115.5699 0)
 			(effects
 				(font
@@ -3740,7 +3897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.738 116.84 90)
 			(effects
 				(font
@@ -3776,7 +3933,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R603")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -3792,7 +3949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "919a3b13-952d-4648-b651-06c5e0996a20")
-		(property "Reference" "#PWR0607"
+		(property "Reference" "#PWR0604"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -3843,7 +4000,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0607")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -3859,7 +4016,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "943c15a7-cae4-4611-9476-fd09bf76dfc2")
-		(property "Reference" "R606"
+		(property "Reference" "R604"
 			(at 93.98 115.5699 0)
 			(effects
 				(font
@@ -3877,7 +4034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.218 116.84 90)
 			(effects
 				(font
@@ -3913,7 +4070,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R606")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -3929,7 +4086,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4f94226-a9c5-4440-8742-985e4c07b51d")
-		(property "Reference" "R602"
+		(property "Reference" "R609"
 			(at 226.06 124.46 90)
 			(effects
 				(font
@@ -3981,7 +4138,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R602")
+					(reference "R609")
 					(unit 1)
 				)
 			)
@@ -3997,7 +4154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f8cd51-c13c-4b99-b1a0-d869aa05193c")
-		(property "Reference" "#PWR0608"
+		(property "Reference" "#PWR0607"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -4048,7 +4205,141 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0608")
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 130.81 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf787efe-5556-4dcb-9349-f634c91bed78")
+		(property "Reference" "#PWR0605"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 130.81 106.68 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fbc501a-ab97-4fd9-a00c-1deb983b3958")
+		)
+		(instances
+			(project "knobber"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 226.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4d9bce6-e9cb-44c4-8ca9-f5706245ddbd")
+		(property "Reference" "#PWR0612"
+			(at 226.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 226.06 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 226.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cd1508e-5ccb-4c88-85d0-30dde51556e1")
+		)
+		(instances
+			(project "knobber"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -4064,7 +4355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e1d239-7ce4-4ce2-a299-c2719cfa229e")
-		(property "Reference" "#PWR0606"
+		(property "Reference" "#PWR0603"
 			(at 110.49 83.82 0)
 			(effects
 				(font
@@ -4115,7 +4406,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0606")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4414,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 137.16 135.89 0)
+		(at 130.81 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4131,8 +4422,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30a3abe-61a0-4bd8-858c-9518bdacbbb1")
-		(property "Reference" "#PWR0604"
-			(at 137.16 142.24 0)
+		(property "Reference" "#PWR0606"
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 139.7 0)
+			(at 130.81 139.7 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4150,7 +4441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 135.89 0)
+			(at 130.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 135.89 0)
+			(at 130.81 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 144.78 0)
+			(at 130.81 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4473,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0604")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4489,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e3d2dd51-9732-4554-abd5-6ba9571d9e9d")
-		(property "Reference" "R608"
+		(property "Reference" "R606"
 			(at 114.3 115.5699 0)
 			(effects
 				(font
@@ -4216,7 +4507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.538 116.84 90)
 			(effects
 				(font
@@ -4252,7 +4543,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "R608")
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -4267,7 +4558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7cdc464-1692-40a9-b6e5-f90e428350bf")
-		(property "Reference" "C603"
+		(property "Reference" "C604"
 			(at 140.97 69.8499 0)
 			(effects
 				(font
@@ -4285,7 +4576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.1252 74.93 0)
 			(effects
 				(font
@@ -4329,7 +4620,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "C603")
+					(reference "C604")
 					(unit 1)
 				)
 			)
@@ -4345,7 +4636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2b984c-0986-4dd4-b4e6-303ecc9df59c")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0610"
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -4396,7 +4687,7 @@
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
-					(reference "#PWR0112")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)

@@ -218,155 +218,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-PowerSymbol:5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "5V"
-				(at 0 3.81 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"5V\""
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(junction
-		(at 68.58 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d3c5336-0c37-499e-913f-83339b48079f")
-	)
-	(junction
-		(at 107.95 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a2aa8ee-6611-4957-89b1-6883d132d2d3")
 	)
 	(wire
 		(pts
-			(xy 105.41 29.21) (xy 107.95 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045e127a-4a2b-44f7-a339-261df7293396")
-	)
-	(wire
-		(pts
-			(xy 154.94 90.17) (xy 160.02 90.17)
+			(xy 154.94 82.55) (xy 160.02 82.55)
 		)
 		(stroke
 			(width 0)
@@ -376,27 +231,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 123.19) (xy 217.17 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc9abd7-dc88-4724-87a1-470e713f268a")
-	)
-	(wire
-		(pts
-			(xy 113.03 83.82) (xy 113.03 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30858bd8-0a0e-412b-bb2f-6fc8d37c5692")
-	)
-	(wire
-		(pts
-			(xy 154.94 85.09) (xy 160.02 85.09)
+			(xy 154.94 77.47) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -406,67 +241,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 29.21) (xy 217.17 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ea3a630-8b44-40f5-b5b7-d835d2d1ff2f")
-	)
-	(wire
-		(pts
-			(xy 107.95 29.21) (xy 119.38 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574a20bd-719c-42c1-887b-d7ae1cd85515")
-	)
-	(wire
-		(pts
-			(xy 107.95 25.4) (xy 107.95 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574c4033-d645-4d65-8d93-087fe4a4e12b")
-	)
-	(wire
-		(pts
-			(xy 113.03 59.69) (xy 119.38 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1492dc-7eb4-460a-9ddb-e22c2e674eae")
-	)
-	(wire
-		(pts
-			(xy 113.03 25.4) (xy 113.03 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63ad5f7f-2c03-42f0-9ea9-18f58c773fff")
-	)
-	(wire
-		(pts
-			(xy 68.58 29.21) (xy 77.47 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "778c922a-1b3e-4b33-ba5f-161be45259e5")
-	)
-	(wire
-		(pts
-			(xy 154.94 87.63) (xy 160.02 87.63)
+			(xy 154.94 80.01) (xy 160.02 80.01)
 		)
 		(stroke
 			(width 0)
@@ -474,206 +249,9 @@
 		)
 		(uuid "7cca36e8-d9d0-4177-8c6a-e0b85b597ceb")
 	)
-	(wire
-		(pts
-			(xy 113.03 121.92) (xy 113.03 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4db521-362b-428a-bcea-f8b7cc10ca99")
-	)
-	(wire
-		(pts
-			(xy 68.58 27.94) (xy 68.58 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860324f8-542e-4b18-8e0f-e0497a20d4f7")
-	)
-	(wire
-		(pts
-			(xy 113.03 58.42) (xy 113.03 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be189d3-f121-437b-8212-2d2877102887")
-	)
-	(wire
-		(pts
-			(xy 113.03 123.19) (xy 119.38 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96cc902f-43eb-4e69-b643-a27e9817965c")
-	)
-	(wire
-		(pts
-			(xy 210.82 26.67) (xy 217.17 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9722331d-6ed4-4acd-8120-207e89ac4eef")
-	)
-	(wire
-		(pts
-			(xy 113.03 85.09) (xy 119.38 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dabf819-1464-4047-8995-bd71c9deb7cd")
-	)
-	(wire
-		(pts
-			(xy 210.82 121.92) (xy 210.82 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ad5f1a-b2e9-4830-beb9-529162f3ee4d")
-	)
-	(wire
-		(pts
-			(xy 107.95 87.63) (xy 119.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd0d1c0-7587-41c9-9316-3dfe83ee16f4")
-	)
-	(wire
-		(pts
-			(xy 210.82 25.4) (xy 210.82 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d306fb90-6ad4-4925-832d-0baa5a0cd52f")
-	)
-	(wire
-		(pts
-			(xy 205.74 25.4) (xy 205.74 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d3f481-603e-47c1-a330-ffa5d8ab536f")
-	)
-	(wire
-		(pts
-			(xy 107.95 83.82) (xy 107.95 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e13c46-3208-4060-88f4-62b2cf505018")
-	)
-	(wire
-		(pts
-			(xy 59.69 29.21) (xy 68.58 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e962f3-00cc-408e-84ea-fec10c822ae4")
-	)
-	(wire
-		(pts
-			(xy 113.03 26.67) (xy 119.38 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa93f525-96b4-49e9-8359-37bbdf8b3f36")
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 205.74 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2adcd379-3b27-4a0d-bef7-4378ae9ea30e")
-		(property "Reference" "#PWR0123"
-			(at 205.74 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 205.74 21.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39b4f01e-312c-4839-b964-4075ab836ea7")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 165.1 87.63 0)
+		(at 165.1 80.01 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -682,8 +260,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c52bf4-3988-4266-a635-4db0545377b7")
-		(property "Reference" "J102"
-			(at 164.465 80.01 0)
+		(property "Reference" "J101"
+			(at 164.465 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,15 +269,15 @@
 			)
 		)
 		(property "Value" "BLDC"
-			(at 164.465 82.55 0)
+			(at 164.465 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 87.63 0)
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 87.63 0)
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +295,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 165.1 87.63 0)
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,624 +315,15 @@
 		(instances
 			(project ""
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "J102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 68.58 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56d3dc6f-242c-45db-8a6a-6ad0b5768cf2")
-		(property "Reference" "#PWR0103"
-			(at 68.58 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 68.58 24.13 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 68.58 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eb24520-e22e-4195-bc4c-5c595b56351c")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 113.03 25.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61fbcd96-5063-4578-8f74-23c3909a81fb")
-		(property "Reference" "#PWR0111"
-			(at 113.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 113.03 21.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8c747b9-7f40-4e98-9f8a-ea6fd45cd168")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 113.03 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b47b9b8-341a-4269-ba77-1ff0a4eebcb2")
-		(property "Reference" "#PWR0118"
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 113.03 54.61 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 113.03 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0cb7629-7e17-4689-a286-3f5ec44997e8")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 107.95 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "713187eb-0155-4eb7-a9f0-e40b25b74db1")
-		(property "Reference" "#PWR0120"
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 107.95 80.01 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 107.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b4d9523-87fe-4efb-94b1-6dd37a92bf0a")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 113.03 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb0888db-d356-4e6c-8d51-210fd0d5153f")
-		(property "Reference" "#PWR0121"
-			(at 113.03 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 113.03 118.11 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 113.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9da1c298-622f-4fb0-bdc8-f2b43cf6b5a6")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 107.95 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d44f1288-bd96-434c-abf3-e3117ad683f1")
-		(property "Reference" "#PWR0119"
-			(at 107.95 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 107.95 21.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3da977f2-6dbc-45cc-92f3-127285f122a0")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 113.03 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e58541aa-e3a5-445c-a993-0a4afe159619")
-		(property "Reference" "#PWR0117"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 113.03 80.01 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "279262e2-91a2-46b8-bff2-9fe2ecc6479d")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 210.82 25.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7b62352-3054-46b8-bc4e-3fd2fa82b8f2")
-		(property "Reference" "#PWR0124"
-			(at 210.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 210.82 21.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 210.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "037eeb1e-dd01-471a-92b8-2caf5eaedff7")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 210.82 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7308f2c-2f45-45fd-b10e-67f91ccec171")
-		(property "Reference" "#PWR0122"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 210.82 118.11 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a18ad3c-78dd-4c04-ae8b-37fa8ca616b4")
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "#PWR0122")
+					(reference "J101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 119.38 81.28)
-		(size 35.56 30.48)
+		(at 119.38 73.66)
+		(size 35.56 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1369,7 +338,7 @@
 		)
 		(uuid "09b435d4-5eb0-4cf9-81af-6c2df0af7c36")
 		(property "Sheetname" "Motor driver"
-			(at 119.38 80.5684 0)
+			(at 119.38 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +347,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_driver.kicad_sch"
-			(at 119.38 112.3446 0)
+			(at 119.38 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,9 +355,9 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V" input
-			(at 119.38 87.63 180)
-			(uuid "5e0dcf47-03f6-45f8-93db-a99d80e3c3dc")
+		(pin "MOT_UL" input
+			(at 119.38 77.47 180)
+			(uuid "61d152dd-63ed-4389-98ad-fca211763972")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,9 +365,9 @@
 				(justify left)
 			)
 		)
-		(pin "5V" input
-			(at 119.38 85.09 180)
-			(uuid "d7f6aeb8-4cc4-4c01-8512-dcd5dec1386e")
+		(pin "MOT_WH" input
+			(at 119.38 90.17 180)
+			(uuid "39d128ff-80b8-4e71-8631-9d636594d980")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,39 +375,19 @@
 				(justify left)
 			)
 		)
-		(pin "Motor_Diag" output
-			(at 154.94 107.95 0)
-			(uuid "e6149d90-4a0d-4eef-bb61-da0ecb075dd4")
+		(pin "MOT_VH" input
+			(at 119.38 83.82 180)
+			(uuid "e5b6ad99-0eb9-49b4-ba4a-1fd8b1b0061b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "Motor_Sens" output
-			(at 154.94 105.41 0)
-			(uuid "b082ec89-661a-43b6-a273-d56fde2cbc73")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Motor_U" output
-			(at 154.94 85.09 0)
-			(uuid "94d60cac-ab40-4a45-812b-0dba654b59ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Motor_UH" input
+		(pin "MOT_WL" input
 			(at 119.38 92.71 180)
-			(uuid "806842a3-aa4c-4290-a879-0b517fd71255")
+			(uuid "490f23c9-efcd-4b80-b798-0c2de3b72015")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,19 +395,9 @@
 				(justify left)
 			)
 		)
-		(pin "Motor_UL" input
-			(at 119.38 95.25 180)
-			(uuid "4d542d8d-f4ec-4bdb-ad1f-23594e760d7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Motor_V" output
-			(at 154.94 87.63 0)
-			(uuid "e830189b-ff85-4390-b182-72b84887275d")
+		(pin "MOT_W" output
+			(at 154.94 82.55 0)
+			(uuid "478bc813-cc35-4549-a570-368720ae87db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,9 +405,19 @@
 				(justify right)
 			)
 		)
-		(pin "Motor_VH" input
-			(at 119.38 105.41 180)
-			(uuid "29ec1194-a519-4ff2-b14f-df758c19c111")
+		(pin "MOT_V" output
+			(at 154.94 80.01 0)
+			(uuid "d71fd160-90c5-4185-80f3-24a66a3996bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOT_UH" input
+			(at 119.38 80.01 180)
+			(uuid "a8ef7970-58b5-412a-926d-6f4ec5e2c6cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,19 +425,19 @@
 				(justify left)
 			)
 		)
-		(pin "Motor_VL" input
-			(at 119.38 107.95 180)
-			(uuid "cf689816-9573-4a41-ace2-2b9b10654a34")
+		(pin "MOT_U" output
+			(at 154.94 77.47 0)
+			(uuid "a65f6f37-ce20-4fe5-9b57-840a9c791467")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "Motor_W" output
+		(pin "MOT_DIAG" output
 			(at 154.94 90.17 0)
-			(uuid "f8436ab3-684f-4a4a-84c1-f3caf573e08e")
+			(uuid "c84506ad-951d-4a38-a777-5e7707cfbeaa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,9 +445,9 @@
 				(justify right)
 			)
 		)
-		(pin "Motor_WH" input
-			(at 119.38 99.06 180)
-			(uuid "ab513e88-6360-480a-b359-1f3c9dceb145")
+		(pin "MOT_VL" input
+			(at 119.38 86.36 180)
+			(uuid "9d70af67-dabe-4515-97f1-36247538427c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,14 +455,14 @@
 				(justify left)
 			)
 		)
-		(pin "Motor_WL" input
-			(at 119.38 101.6 180)
-			(uuid "029d34cb-f1d3-4df1-b007-6261ce673bbf")
+		(pin "MOT_SENS" output
+			(at 154.94 92.71 0)
+			(uuid "344bc350-041c-4eb6-ad99-dda3613d6433")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1525,8 +474,8 @@
 		)
 	)
 	(sheet
-		(at 217.17 119.38)
-		(size 43.18 25.4)
+		(at 217.17 118.11)
+		(size 43.18 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1541,7 +490,7 @@
 		)
 		(uuid "1a999a9f-67af-4b14-843e-6d414fc036ec")
 		(property "Sheetname" "LCD"
-			(at 217.17 118.6684 0)
+			(at 217.17 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +499,7 @@
 			)
 		)
 		(property "Sheetfile" "LCD.kicad_sch"
-			(at 217.17 145.3646 0)
+			(at 217.17 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,18 +507,8 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V" input
-			(at 217.17 123.19 180)
-			(uuid "576cca44-4f1a-46ef-8aa6-8a9c2d565d31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_BL" input
-			(at 217.17 140.97 180)
+			(at 217.17 134.62 180)
 			(uuid "4e8a71df-ccba-406f-bba2-b69b69f40c01")
 			(effects
 				(font
@@ -1579,7 +518,7 @@
 			)
 		)
 		(pin "LCD_CMD" input
-			(at 217.17 138.43 180)
+			(at 217.17 132.08 180)
 			(uuid "84ad1329-d1f4-442e-b782-4df8f06717fc")
 			(effects
 				(font
@@ -1589,7 +528,7 @@
 			)
 		)
 		(pin "LCD_MOSI" input
-			(at 217.17 135.89 180)
+			(at 217.17 129.54 180)
 			(uuid "a49e9274-05aa-4464-a721-d7af0e5b0232")
 			(effects
 				(font
@@ -1599,7 +538,7 @@
 			)
 		)
 		(pin "LCD_SCK" input
-			(at 217.17 133.35 180)
+			(at 217.17 127 180)
 			(uuid "3687b988-60c3-4321-9247-2280b8fc969d")
 			(effects
 				(font
@@ -1609,7 +548,7 @@
 			)
 		)
 		(pin "LCD_~{CS}" input
-			(at 217.17 130.81 180)
+			(at 217.17 124.46 180)
 			(uuid "5e04e80a-aa04-4462-99a9-9a24dfad0476")
 			(effects
 				(font
@@ -1619,7 +558,7 @@
 			)
 		)
 		(pin "LCD_~{RST}" input
-			(at 217.17 128.27 180)
+			(at 217.17 121.92 180)
 			(uuid "45439dfb-f8d0-4daf-8d4f-b4df4ddc3817")
 			(effects
 				(font
@@ -1637,7 +576,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 55.88)
+		(at 119.38 49.53)
 		(size 34.29 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1653,7 +592,7 @@
 		)
 		(uuid "4d34a3a7-fe2c-4bc6-8e97-fce892a457e6")
 		(property "Sheetname" "LED lighting"
-			(at 119.38 55.1684 0)
+			(at 119.38 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +601,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_lighting.kicad_sch"
-			(at 119.38 74.2446 0)
+			(at 119.38 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,18 +610,8 @@
 			)
 		)
 		(pin "LED_DATA" input
-			(at 119.38 64.77 180)
+			(at 119.38 53.34 180)
 			(uuid "b37e211b-0919-4cf9-a926-3c6ceb125331")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" input
-			(at 119.38 59.69 180)
-			(uuid "59760d0b-3584-47ad-914d-f3ccc7113240")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,8 +628,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 119.38)
-		(size 35.56 20.32)
+		(at 119.38 102.87)
+		(size 35.56 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1715,7 +644,7 @@
 		)
 		(uuid "4d73b7c1-8f89-4c7f-aba6-18c4e8cd91de")
 		(property "Sheetname" "Switches"
-			(at 119.38 118.6684 0)
+			(at 119.38 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +653,7 @@
 			)
 		)
 		(property "Sheetfile" "Switches.kicad_sch"
-			(at 119.38 140.2846 0)
+			(at 119.38 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,9 +661,9 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V" input
-			(at 119.38 123.19 180)
-			(uuid "88872fb1-20d6-4bd4-9093-c10b6428821a")
+		(pin "LED_DATA" input
+			(at 119.38 106.68 180)
+			(uuid "f39e60ea-1109-4086-a4c4-cb0e1ade95c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,9 +671,9 @@
 				(justify left)
 			)
 		)
-		(pin "Switch_4" output
-			(at 154.94 130.81 0)
-			(uuid "5963841d-2666-4b29-9364-09daccc1666d")
+		(pin "COL_1" output
+			(at 154.94 106.68 0)
+			(uuid "dcade605-11be-4d50-b584-0ed4df403164")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,9 +681,9 @@
 				(justify right)
 			)
 		)
-		(pin "Switch_6" output
-			(at 154.94 135.89 0)
-			(uuid "9b2ac25c-800a-4e7e-870a-45fbfd9681c1")
+		(pin "COL_2" output
+			(at 154.94 109.22 0)
+			(uuid "b0e2cdd2-f716-418e-8ecb-95a9db111d43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,9 +691,9 @@
 				(justify right)
 			)
 		)
-		(pin "Switch_3" output
-			(at 154.94 128.27 0)
-			(uuid "0f02ee76-20dd-4365-8f9b-c756284a462e")
+		(pin "COL_3" output
+			(at 154.94 111.76 0)
+			(uuid "cf4b5230-26f8-4408-9575-195c48d9f481")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,9 +701,9 @@
 				(justify right)
 			)
 		)
-		(pin "Switch_2" output
-			(at 154.94 125.73 0)
-			(uuid "12d02077-172e-4428-845a-faf3a40e1b01")
+		(pin "COL_4" output
+			(at 154.94 114.3 0)
+			(uuid "aa1a9778-5f75-4164-9ef1-fcee3b4cda8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,9 +711,29 @@
 				(justify right)
 			)
 		)
-		(pin "Switch_1" output
+		(pin "ROW_1" output
+			(at 154.94 118.11 0)
+			(uuid "ce67fb95-54c7-4a54-9c00-4dc97c79af54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW_2" output
+			(at 154.94 120.65 0)
+			(uuid "2c9d7730-446c-4dee-892b-e0ca6c8357cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW_3" output
 			(at 154.94 123.19 0)
-			(uuid "d0352ceb-5429-45d1-b434-5844686e166b")
+			(uuid "1d2e2d24-3869-4f86-a358-d429dd2fcf41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,9 +741,19 @@
 				(justify right)
 			)
 		)
-		(pin "Switch_5" output
-			(at 154.94 133.35 0)
-			(uuid "a36ce50c-ae40-467e-9688-55a05446bc0c")
+		(pin "ROW_4" output
+			(at 154.94 125.73 0)
+			(uuid "39de321f-b6ac-4c2e-ae30-1e0d87077d08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW_5" output
+			(at 154.94 128.27 0)
+			(uuid "98e74047-3868-4418-a89d-ef5a14d85eef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,8 +770,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 22.86)
-		(size 34.29 25.4)
+		(at 119.38 24.13)
+		(size 34.29 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1827,7 +786,7 @@
 		)
 		(uuid "52269903-a6ad-4c58-b1b7-76b5aa66afda")
 		(property "Sheetname" "Sensors"
-			(at 119.38 22.1484 0)
+			(at 119.38 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +795,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 119.38 48.8446 0)
+			(at 119.38 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,28 +803,8 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" input
-			(at 119.38 26.67 180)
-			(uuid "ad3f5084-e708-407d-8c74-61c5a34aa12c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3.3V" input
-			(at 119.38 29.21 180)
-			(uuid "3f42d1fd-f929-4938-a552-c39632929f65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL" bidirectional
-			(at 119.38 34.29 180)
+			(at 119.38 29.21 180)
 			(uuid "fe67278a-697b-446d-a9a8-a4fa0f5b6af0")
 			(effects
 				(font
@@ -1875,7 +814,7 @@
 			)
 		)
 		(pin "ENC_CLK" input
-			(at 119.38 41.91 180)
+			(at 119.38 36.83 180)
 			(uuid "4dc6f319-39fa-4a01-8983-06204c736f85")
 			(effects
 				(font
@@ -1885,7 +824,7 @@
 			)
 		)
 		(pin "ENC_MISO" output
-			(at 153.67 41.91 0)
+			(at 153.67 39.37 0)
 			(uuid "a3076d56-5353-4e81-9104-ebc3bd51f41e")
 			(effects
 				(font
@@ -1895,7 +834,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 119.38 36.83 180)
+			(at 119.38 31.75 180)
 			(uuid "b24c57eb-ba15-4b90-aeaf-b104f2a921ff")
 			(effects
 				(font
@@ -1905,7 +844,7 @@
 			)
 		)
 		(pin "ENC__~{CS}" input
-			(at 119.38 44.45 180)
+			(at 119.38 39.37 180)
 			(uuid "70e9a45d-068a-4f82-9099-c57e82f01ea1")
 			(effects
 				(font
@@ -1956,26 +895,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V" output
-			(at 105.41 29.21 0)
-			(uuid "b9dc1498-afff-4027-8c9f-5af6a3367ed9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 77.47 29.21 180)
-			(uuid "7acb301e-0554-4574-bb06-d8bc018c7ae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "knobber"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
@@ -2018,18 +937,8 @@
 				(justify left top)
 			)
 		)
-		(pin "5V" output
-			(at 59.69 29.21 0)
-			(uuid "d6c3c79a-07d2-4dd3-a9fc-86ca51913a91")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_D+" bidirectional
-			(at 59.69 34.29 0)
+			(at 59.69 29.21 0)
 			(uuid "6486a070-d089-4e75-9324-861d96eef534")
 			(effects
 				(font
@@ -2039,7 +948,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 59.69 36.83 0)
+			(at 59.69 31.75 0)
 			(uuid "a58a0aff-a664-49ac-a560-2c3b6853f182")
 			(effects
 				(font
@@ -2057,8 +966,8 @@
 		)
 	)
 	(sheet
-		(at 217.17 22.86)
-		(size 43.18 88.9)
+		(at 217.17 24.13)
+		(size 43.18 87.63)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2073,7 +982,7 @@
 		)
 		(uuid "f505cfea-b29a-4948-bb0a-48341138c985")
 		(property "Sheetname" "MCU"
-			(at 217.17 22.1484 0)
+			(at 217.17 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +1000,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 217.17 34.29 180)
+			(at 217.17 29.21 180)
 			(uuid "031624fa-1d77-471f-85ee-9b9969e612f6")
 			(effects
 				(font
@@ -2101,28 +1010,8 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 217.17 36.83 180)
+			(at 217.17 31.75 180)
 			(uuid "1daade6c-2c5d-43c6-bea9-9391916c626d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" input
-			(at 217.17 26.67 180)
-			(uuid "b5e7670e-70e2-4f9e-b2d5-512b0e82b106")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3.3V" input
-			(at 217.17 29.21 180)
-			(uuid "06fc3ac2-8e63-4601-b5e8-6c990fc541d7")
 			(effects
 				(font
 					(size 1.27 1.27)
