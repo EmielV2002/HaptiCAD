@@ -190,6 +190,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2489,6 +2696,66 @@
 		)
 		(uuid "fd03edeb-14ed-4062-9512-8cea20fb7093")
 	)
+	(label "MOT_V"
+		(at 54.61 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "074178de-fcb5-4740-9062-8896101608d3")
+	)
+	(label "MOT_W"
+		(at 54.61 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a603fc36-16fa-4be3-bd3c-5bf065a21347")
+	)
+	(label "MOT_V"
+		(at 191.77 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab1265de-f1aa-4651-bb3c-de221e26c549")
+	)
+	(label "MOT_U"
+		(at 191.77 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddc9a0b2-7b81-4b2f-a4fe-53ced9a6949d")
+	)
+	(label "MOT_W"
+		(at 191.77 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea43037f-f5e4-4d16-8979-8d1fe64a7386")
+	)
+	(label "MOT_U"
+		(at 54.61 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4704408-e62a-4afd-bab3-395d5455951e")
+	)
 	(hierarchical_label "MOT_DIAG"
 		(shape output)
 		(at 54.61 162.56 180)
@@ -2522,61 +2789,6 @@
 		)
 		(uuid "49b0e356-ec8a-40fa-87c1-d5ddad70cf43")
 	)
-	(hierarchical_label "MOT_W"
-		(shape output)
-		(at 54.61 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bef98a6-abaa-4fc7-a935-32bfe756ee90")
-	)
-	(hierarchical_label "MOT_W"
-		(shape output)
-		(at 191.77 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4fd3b380-ed2c-4b13-aa46-f23d07f06207")
-	)
-	(hierarchical_label "MOT_U"
-		(shape output)
-		(at 191.77 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ffd1ea4-5314-49eb-9cb8-6316f85d2f57")
-	)
-	(hierarchical_label "MOT_V"
-		(shape output)
-		(at 191.77 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7061d2bd-d182-4b83-a148-238a3ef21e95")
-	)
-	(hierarchical_label "MOT_U"
-		(shape output)
-		(at 54.61 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "750340f0-31e4-4075-9444-29b9e1bf8784")
-	)
 	(hierarchical_label "MOT_WH"
 		(shape input)
 		(at 54.61 153.67 180)
@@ -2598,17 +2810,6 @@
 			(justify right)
 		)
 		(uuid "83885268-0f28-4f72-b980-cd3bce6d1113")
-	)
-	(hierarchical_label "MOT_V"
-		(shape output)
-		(at 54.61 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "871d8b7e-ce18-439f-8588-d438dd0baad9")
 	)
 	(hierarchical_label "MOT_VH"
 		(shape input)
@@ -3477,9 +3678,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "26b51abe-0103-4789-8308-5b1fcb0994b8")
 		(property "Reference" "TP601"
 			(at 87.63 138.43 90)
@@ -3608,14 +3809,86 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 146.05 270)
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 196.85 46.99 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34c52bf4-3988-4266-a635-4db0545377b7")
+		(property "Reference" "J101"
+			(at 196.215 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLDC"
+			(at 196.215 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0466f64-a9a1-4872-a61f-b87c3025728d")
+		)
+		(pin "1"
+			(uuid "cfdc8397-839b-47c6-95dc-b0aafbd25722")
+		)
+		(pin "3"
+			(uuid "899c7e8b-3db6-417f-ae50-8672e0202587")
+		)
+		(instances
+			(project "knobber"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 146.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "392e1499-afd4-435e-a9d9-091fa523ebea")
 		(property "Reference" "TP603"
 			(at 87.63 146.05 90)
@@ -4020,9 +4293,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "6cd92f56-478c-4573-b166-7cae76fd1dc2")
 		(property "Reference" "TP608"
 			(at 87.63 162.56 90)
@@ -4153,9 +4426,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "709c0514-99af-4463-87c6-7e19143e6cb7")
 		(property "Reference" "TP609"
 			(at 87.63 168.91 90)
@@ -4992,9 +5265,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c0bb0359-19a3-48eb-80b7-feef89e68d96")
 		(property "Reference" "TP604"
 			(at 87.63 148.59 90)
@@ -5058,9 +5331,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c233ac68-cf74-4997-a64f-1523fcf3d02a")
 		(property "Reference" "TP605"
 			(at 87.63 153.67 90)
@@ -5258,9 +5531,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "cf9da87d-d54d-4f56-b589-3d885b9f8e9d")
 		(property "Reference" "TP610"
 			(at 87.63 171.45 90)
@@ -5324,9 +5597,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d441301a-b3f2-4569-9107-147dce08449a")
 		(property "Reference" "TP606"
 			(at 87.63 156.21 90)
@@ -5390,9 +5663,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "dc92222e-765b-4988-b926-a10c0d821657")
 		(property "Reference" "TP611"
 			(at 87.63 173.99 90)
@@ -5737,9 +6010,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "fee9a33e-199f-4b0d-b987-48706cf48d37")
 		(property "Reference" "TP602"
 			(at 87.63 140.97 90)

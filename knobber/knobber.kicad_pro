@@ -492,6 +492,54 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "3.3V",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 153, 0)"
+      },
+      {
+        "name": "5V",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 0, 0)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 5,
+        "schematic_color": "rgb(72, 72, 72)"
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(194, 194, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(194, 194, 0)"
+      },
+      {
+        "name": "MOT",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 194, 194)"
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 194)"
+      },
+      {
+        "name": "SW",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(132, 0, 0)"
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 132, 132)"
       }
     ],
     "meta": {
@@ -499,7 +547,168 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "3.3V",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "3.3V",
+        "pattern": "3.3V"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/USB_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/USB_D+"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/SCL"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Sensors/ENC_MISO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Sensors/ENC_CLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Sensors/ENC__~{CS}"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/LCD/LCD_SCK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/LCD/LCD_MOSI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/LCD/LCD_~{CS}"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/SD_~{CS}"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/SD_MOSI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/SD_CLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/SD_MISO"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_UH"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_UL"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_VH"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_VL"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_WH"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_WL"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_DIAG"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_SENS"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_U"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_V"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/MOT_W"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/COL_1"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/COL_2"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/COL_3"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/COL_4"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/ROW_1"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/ROW_2"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/ROW_3"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/ROW_4"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "/Switches/ROW_5"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -743,7 +952,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/emiel/Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
