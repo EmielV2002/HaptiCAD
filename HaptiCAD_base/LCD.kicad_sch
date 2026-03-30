@@ -953,7 +953,7 @@
 			(uuid "b1395c54-e459-4977-ac60-012c8b8f2161")
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/1a999a9f-67af-4b14-843e-6d414fc036ec"
 					(reference "#PWR0902")
 					(unit 1)
@@ -1031,7 +1031,7 @@
 			(uuid "c44e884c-d251-41a9-8eee-a508b792b240")
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/1a999a9f-67af-4b14-843e-6d414fc036ec"
 					(reference "#PWR0901")
 					(unit 1)
@@ -1131,7 +1131,7 @@
 			(uuid "999ba999-64cd-4c3a-9f43-65bc7754ffb5")
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/1a999a9f-67af-4b14-843e-6d414fc036ec"
 					(reference "J901")
 					(unit 1)

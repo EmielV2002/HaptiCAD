@@ -1,7 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "TMC6300") (type "KiCad") (uri "D:/Github-repositories/knobber/lib/TMC6300-LA-T/footprints.pretty") (options "") (descr ""))
-	(lib (name "BMD-340-A-R") (type "KiCad") (uri "D:/Github-repositories/knobber/lib/BMD-340-A-R/footprints.pretty") (options "") (descr ""))
-	(lib (name "BLDC_mount") (type "KiCad") (uri "D:/Github-repositories/knobber/lib/BLDC_mount/BLDC_mount.pretty") (options "") (descr ""))
-	(lib (name "BLDC_mount") (type "KiCad") (uri "D:/Github-repositories/knobber/lib/BLDC_mount/BLDC_mount.pretty") (options "") (descr ""))
-)

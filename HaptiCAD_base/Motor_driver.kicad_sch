@@ -3142,14 +3142,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "26d702fc-022a-4e20-91a1-2f0c4170b78f")
+			(uuid "6b2a7d37-f76f-4e62-a161-79c61ea9a941")
 		)
 		(pin "1"
-			(uuid "1490d5e3-66f1-4e3a-ae0f-236053efee59")
+			(uuid "00e5f5b9-93cf-4e44-ba55-9f1aea9239a7")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "C603")
 					(unit 1)
 				)
@@ -3224,14 +3224,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea2101a8-d487-4953-b89a-c052872652b9")
+			(uuid "71782bb4-19e1-49a1-bcfd-c1813cf621f7")
 		)
 		(pin "2"
-			(uuid "d1df6894-ed5d-4946-94dd-628ce72274d9")
+			(uuid "aae48d70-9164-4226-a21d-fa162c592473")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R603")
 					(unit 1)
 				)
@@ -3305,11 +3305,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a2b8080-d7b1-4ed6-8a92-88bc1fc557ed")
+			(uuid "03a53fbd-78ac-425e-8e39-9f71ae2c5871")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0602")
 					(unit 1)
 				)
@@ -3383,11 +3383,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8127db8d-ab3e-4143-bbf7-7791ff215391")
+			(uuid "6a57d750-7e92-44a0-900c-7a5af08675ba")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0608")
 					(unit 1)
 				)
@@ -3471,14 +3471,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "49d61e36-298a-4482-9f83-88cbd19aecda")
+			(uuid "aedca139-c36c-484a-a8d2-f86b4b0b170d")
 		)
 		(pin "1"
-			(uuid "8ad4e61e-ef4b-4a7d-a7ab-d7922f1aca09")
+			(uuid "df9999ff-7535-4c92-95b0-8004f6fee26c")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "C602")
 					(unit 1)
 				)
@@ -3696,71 +3696,71 @@
 			)
 		)
 		(pin "4"
-			(uuid "fb7a5a78-0a7d-43b6-ac55-b031ed0fbfa8")
+			(uuid "0ccaafe8-c0f0-43c4-8a61-995871416f83")
 		)
 		(pin "18"
-			(uuid "c9f3884b-f305-42a4-adb7-1259b9b91d24")
+			(uuid "421a0eb6-4d6b-40cc-b572-287a14482094")
 		)
 		(pin "10"
-			(uuid "c4b1912b-794e-4eac-ad1d-765cb942e92f")
+			(uuid "ec44d054-8f4c-41b2-af4e-70804877d118")
 		)
 		(pin "12"
-			(uuid "5741f182-7b36-470e-b6d7-e4d07dd5142d")
+			(uuid "7998a785-1558-4fdc-9ffb-f8f2b5dd6c79")
 		)
 		(pin "15"
-			(uuid "614b97be-629e-4517-a83d-7c90587535af")
+			(uuid "ab8bea0c-2f96-4750-89d0-f8db54042745")
 		)
 		(pin "19"
-			(uuid "59b8054a-a1af-4da3-a295-df6cbecbd440")
+			(uuid "90ca5868-8358-42d1-8c87-bece17c8fca2")
 		)
 		(pin "13"
-			(uuid "86ded3e3-cb66-48b9-adea-812669de23e2")
+			(uuid "98dfe06c-142b-44e7-a0c0-9d4f53de3ef9")
 		)
 		(pin "14"
-			(uuid "aaf8f2dd-0d21-4b14-b5f2-5b7346c7e667")
+			(uuid "f19f0a80-cd85-4641-b250-c9a190bafa67")
 		)
 		(pin "21"
-			(uuid "45f3afae-9676-424a-bb0e-4031177d8052")
+			(uuid "a5ef03b8-e41b-4c45-b145-397b3e37c156")
 		)
 		(pin "6"
-			(uuid "aeea8991-7d99-4ca3-84a2-b463aa64b690")
+			(uuid "90fb70fc-25de-4efd-bed7-095118f3edc8")
 		)
 		(pin "7"
-			(uuid "70efd277-187b-4a14-af10-d193e98097d8")
+			(uuid "78d204dd-68da-419f-a4be-ca1af597a638")
 		)
 		(pin "11"
-			(uuid "0e4d4f1c-07e4-4b80-b70b-8227e07f40cd")
+			(uuid "4f161cc6-0487-4268-ad6c-150730828b1a")
 		)
 		(pin "20"
-			(uuid "d51d7b9a-85a1-4102-b643-ef10ca0f8fc6")
+			(uuid "c2680a01-c45e-46ea-8e7a-5124175821d7")
 		)
 		(pin "9"
-			(uuid "3e0e2724-45ac-487d-9f4c-3b5f21e387c5")
+			(uuid "4330b07b-b527-4887-89d7-4644e7860dd2")
 		)
 		(pin "2"
-			(uuid "22ac0193-b2b2-44ea-bbb6-419c4600c97c")
+			(uuid "1c8544f0-293c-42d9-96da-965eb92c75a5")
 		)
 		(pin "8"
-			(uuid "e0746afc-bf30-4f1f-99b5-f3075bff1288")
+			(uuid "8715cf6c-ba09-41a9-8693-953a19303107")
 		)
 		(pin "16"
-			(uuid "8931faa5-7ef5-4a02-a152-3863a5a95cca")
+			(uuid "587e7c5b-783e-4cf4-80ed-4004e900ef10")
 		)
 		(pin "17"
-			(uuid "ee77fc5f-1957-44b7-9c16-0009b226000c")
+			(uuid "84d8a5a1-0eb0-4b51-870f-2f1d6814103c")
 		)
 		(pin "3"
-			(uuid "65c174a1-7846-4b03-beae-27b86382fd66")
+			(uuid "70044fb3-65fa-403d-ae72-0d2beb93c2e2")
 		)
 		(pin "5"
-			(uuid "2afc2461-9faf-48ad-8039-ee633663fb8c")
+			(uuid "c26c2f4c-0dd2-4212-ae51-8750c2df5f26")
 		)
 		(pin "1"
-			(uuid "e2361b3e-401f-4c73-b238-d296b2faf9bf")
+			(uuid "1c44ad72-724d-4759-b556-3b32007b4f84")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "U601")
 					(unit 1)
 				)
@@ -3835,14 +3835,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0304d8c3-a73f-4b47-83f7-2212654fda45")
+			(uuid "0bb2744d-605c-4cf7-b0f4-107903bf6104")
 		)
 		(pin "2"
-			(uuid "9e11cb80-8ff8-42e0-a41f-17c68397133c")
+			(uuid "1f55853e-7d76-4881-93b2-f38d21fd5880")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R605")
 					(unit 1)
 				)
@@ -3926,14 +3926,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a8c3f534-06ec-4c0d-a355-6ec2d1f99ff1")
+			(uuid "d7339c6f-eb19-43b2-812b-28677e5e2f0a")
 		)
 		(pin "1"
-			(uuid "b511f487-0b85-4fea-9b3c-2fd97b475625")
+			(uuid "becb7497-a23c-43cd-ac3a-0f1f39e68ef9")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "C605")
 					(unit 1)
 				)
@@ -4007,11 +4007,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "30fbd547-8e10-4516-831a-78097bb31ff4")
+			(uuid "669fa031-d58f-4909-9fc3-474f1b8b8bf0")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP601")
 					(unit 1)
 				)
@@ -4086,14 +4086,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "93f17dba-ce42-498f-ad81-73b89a5c26ae")
+			(uuid "7353a918-0d10-422b-abdc-8a49452548c4")
 		)
 		(pin "2"
-			(uuid "9c57a3da-b471-40f4-9e59-c97a5919268c")
+			(uuid "61e922eb-1045-4057-b847-e76d4c2a241c")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R607")
 					(unit 1)
 				)
@@ -4167,17 +4167,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0466f64-a9a1-4872-a61f-b87c3025728d")
+			(uuid "4def03c8-b355-4a59-830e-0a10b710ae3b")
 		)
 		(pin "1"
-			(uuid "cfdc8397-839b-47c6-95dc-b0aafbd25722")
+			(uuid "533e5cf5-b732-4302-a0a9-e34443373947")
 		)
 		(pin "3"
-			(uuid "899c7e8b-3db6-417f-ae50-8672e0202587")
+			(uuid "65502f8d-edf6-4ac2-a061-07c77811f31a")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "J101")
 					(unit 1)
 				)
@@ -4251,11 +4251,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "7898ba68-c42e-49c8-b011-c38812bedd62")
+			(uuid "9f63d440-84d8-4dc5-898c-168335f8643d")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP603")
 					(unit 1)
 				)
@@ -4330,14 +4330,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d900a78a-5913-4121-9488-e643a73efc0b")
+			(uuid "85c5ad39-c296-48be-bc4c-0af9abf5ada8")
 		)
 		(pin "2"
-			(uuid "9c17c0f6-4cf4-44ce-a68f-dfe22b863cc0")
+			(uuid "503034e8-db81-48ac-a45b-4c0629a081e5")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R602")
 					(unit 1)
 				)
@@ -4411,11 +4411,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2df8c35-8db4-48f2-b8d2-0aecc3eae688")
+			(uuid "cc6cf443-fb84-4935-ad82-cd8aa58c7105")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0609")
 					(unit 1)
 				)
@@ -4489,11 +4489,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f7c707f-4e79-4a99-aaff-174d88665822")
+			(uuid "8c2986bf-8710-4046-be82-aec6a912df34")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0614")
 					(unit 1)
 				)
@@ -4568,14 +4568,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf4ec09d-7c37-410e-966e-92b2f7c02027")
+			(uuid "73ef84c3-3b5d-4b3f-84b4-d6a57709f29f")
 		)
 		(pin "2"
-			(uuid "7d642909-72e7-46c2-9078-46de25fbce74")
+			(uuid "8a8cf032-7431-4d8a-b423-21be7683200c")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R608")
 					(unit 1)
 				)
@@ -4649,11 +4649,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9f26308-ca74-4ea6-8edd-8ecf1a6eaa9e")
+			(uuid "c5335f3d-c9c8-4e12-a490-a7c6272a3885")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0611")
 					(unit 1)
 				)
@@ -4727,11 +4727,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e808bcbc-4b4d-448e-ab63-13b4463a0030")
+			(uuid "50c31657-9cec-4502-9a15-877bb63ee787")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP608")
 					(unit 1)
 				)
@@ -4805,11 +4805,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "38f73915-bf58-418f-8e30-1509261725b2")
+			(uuid "e2626935-4d99-4520-9a5f-f6503d943115")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0613")
 					(unit 1)
 				)
@@ -4883,11 +4883,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ccdc5dd-cd7e-4e71-8648-8ee2bcb7fce6")
+			(uuid "0720a136-492e-4104-b872-16c272915283")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP609")
 					(unit 1)
 				)
@@ -4961,23 +4961,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "bae07813-76a3-480b-a7fb-16ee82401451")
+			(uuid "681a1b1b-ebeb-4963-9067-44ed93069a23")
 		)
 		(pin "3"
-			(uuid "652fab37-3c0a-4bbd-be1a-13b211bbaa7f")
+			(uuid "1bbb5c67-0624-4300-be70-db349acabbd0")
 		)
 		(pin "2"
-			(uuid "24e1caf1-c751-4303-a0af-c7a6f30fc76b")
+			(uuid "27719a18-dbf1-4405-91a4-67bb4c9f75d2")
 		)
 		(pin "4"
-			(uuid "3651f687-722d-4f01-8824-03377d544f58")
+			(uuid "d3fc8b12-aaaf-4bdc-80d7-cc12742f28b5")
 		)
 		(pin "5"
-			(uuid "8098012c-65c0-4c07-9c80-c960aa0dedd7")
+			(uuid "ad039278-7198-4feb-bbad-8c6a95557a0a")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "U602")
 					(unit 1)
 				)
@@ -5061,14 +5061,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd3223a1-f3a2-4143-9892-7cf8ad00fb5e")
+			(uuid "4fc6efa1-65da-4826-b276-3e54d99f2423")
 		)
 		(pin "1"
-			(uuid "8ca19e6d-171d-40e3-9609-733660eab7ff")
+			(uuid "1fdb086b-7c79-4f97-8fe1-45c153673f6c")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "C601")
 					(unit 1)
 				)
@@ -5142,11 +5142,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f0500c4-31ea-4480-8dc2-2b889fc2f1b7")
+			(uuid "0491e644-4c2a-48b8-aaab-8f771ae081ee")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0601")
 					(unit 1)
 				)
@@ -5228,14 +5228,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8af2d9c2-b833-44c4-b671-ac620fa68457")
+			(uuid "c9dddd25-86ff-44e6-a3b4-c78f082ae125")
 		)
 		(pin "1"
-			(uuid "8994eb51-5a01-4b4f-a945-ff413eb49519")
+			(uuid "b30580bd-9c43-4571-b967-3da424eff529")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "C606")
 					(unit 1)
 				)
@@ -5310,14 +5310,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8893d01e-106e-4a35-ad28-865725c9c15b")
+			(uuid "e8ebcfeb-1410-4af0-8d80-11b56eb3257e")
 		)
 		(pin "2"
-			(uuid "ebb72583-083e-4d68-bb1f-e7eef70e14f0")
+			(uuid "010c4478-0030-45da-9fbb-5f081b94161b")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R601")
 					(unit 1)
 				)
@@ -5391,11 +5391,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cee9edf-ece8-4b2a-b61d-d9df455e5f68")
+			(uuid "3559cd8a-7adb-460c-a4d3-b5015305dc96")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0604")
 					(unit 1)
 				)
@@ -5470,14 +5470,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7823cba-bd2a-4d3e-9267-413989dcb8d9")
+			(uuid "8205031d-a39d-4ef5-a584-e7093c9ea313")
 		)
 		(pin "2"
-			(uuid "3b1d55b3-8944-47ca-bd72-94c4cdcf1aff")
+			(uuid "5b5d2644-2c48-42a4-9b05-be0660186003")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R604")
 					(unit 1)
 				)
@@ -5552,11 +5552,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bec5a862-342f-4526-ae77-b059d00aff01")
+			(uuid "c6d980b8-e191-437a-b92c-48727b155e4a")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP607")
 					(unit 1)
 				)
@@ -5629,14 +5629,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "42909b89-ae6b-45e4-8027-e17b07cbc886")
+			(uuid "42c17b0c-ff80-48a0-8a9d-0e9fbaf6c826")
 		)
 		(pin "2"
-			(uuid "0bad492d-f3c8-4fd4-9116-c6553dbe1883")
+			(uuid "87a3221a-f87e-4ea0-9402-d31d2742e1ed")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R609")
 					(unit 1)
 				)
@@ -5710,11 +5710,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4dbbb8eb-e994-4965-8760-d1bdfa06f90f")
+			(uuid "f371f0d9-032a-4c26-9385-356d19378b79")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0607")
 					(unit 1)
 				)
@@ -5788,11 +5788,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fbc501a-ab97-4fd9-a00c-1deb983b3958")
+			(uuid "ec615fe1-13dc-4e17-a459-8b5fe1de9982")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0605")
 					(unit 1)
 				)
@@ -5866,11 +5866,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "76eece26-008e-4213-8592-bcf3a2e7abc0")
+			(uuid "6a387f9c-b76a-47a2-abde-5ccc7f7a38c3")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP604")
 					(unit 1)
 				)
@@ -5944,11 +5944,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d83bbdc-f358-43fa-8d96-3a13a9ab75e1")
+			(uuid "43770f0a-5633-4d30-afa9-3869bdb2f64f")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP605")
 					(unit 1)
 				)
@@ -6022,11 +6022,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cd1508e-5ccb-4c88-85d0-30dde51556e1")
+			(uuid "7a55e301-b905-4621-b295-61f0a664d628")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0612")
 					(unit 1)
 				)
@@ -6100,11 +6100,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "19d0418c-4fc4-4702-a333-4cb511c6d7cb")
+			(uuid "6d2cab4a-037e-4599-ba61-128c9b47edc9")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0603")
 					(unit 1)
 				)
@@ -6178,11 +6178,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "db282ede-64c7-44a4-bc5b-de84424f698a")
+			(uuid "049a0ca5-a2fe-4ae1-96f4-8de0e7641677")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP610")
 					(unit 1)
 				)
@@ -6256,11 +6256,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "047e9e12-43a8-4022-891a-1c6fb82cdc62")
+			(uuid "ceca3593-8796-43cb-85bb-f8702b128472")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP606")
 					(unit 1)
 				)
@@ -6334,11 +6334,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad76b128-ead1-4e0c-ba85-94dfbf0cb5fd")
+			(uuid "78bc97fd-567f-4cef-ae33-24fee92ee77d")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP611")
 					(unit 1)
 				)
@@ -6412,11 +6412,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c07216a1-753a-46a0-ae58-eda3df654966")
+			(uuid "596aa2ea-4238-4456-a9bd-4c75ff6626e7")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0606")
 					(unit 1)
 				)
@@ -6491,14 +6491,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "60d623fc-f151-44ba-b21f-2135cabedaff")
+			(uuid "03b262e9-5258-4d36-8c2c-33fe4c39cb55")
 		)
 		(pin "2"
-			(uuid "6dcf9590-bfd1-49f0-a0bd-09c13a03d71b")
+			(uuid "e2278525-9279-426c-bf4a-2b005a475fa8")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "R606")
 					(unit 1)
 				)
@@ -6582,14 +6582,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "59c84e58-298b-414c-89e1-a21a88bb9c23")
+			(uuid "f916aaa0-b80b-4cf5-beb6-5ad96f513723")
 		)
 		(pin "1"
-			(uuid "28878c84-2c53-4ca0-a1a1-af37473ef0ea")
+			(uuid "85a75f7b-9c8e-4f7f-90ae-964640395e20")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "C604")
 					(unit 1)
 				)
@@ -6663,11 +6663,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfdfd580-8f8f-40f4-8c70-f2737216b9d2")
+			(uuid "d25a1227-4c4c-4e2f-9d5b-02b4ac163cfc")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "#PWR0610")
 					(unit 1)
 				)
@@ -6741,11 +6741,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4e3cc7a-bf6e-4a05-a84e-814d116e17a0")
+			(uuid "4a9da67f-2184-45be-8e2e-1724cbd88c2d")
 		)
 		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/09b435d4-5eb0-4cf9-81af-6c2df0af7c36"
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
 					(reference "TP602")
 					(unit 1)
 				)

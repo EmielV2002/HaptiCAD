@@ -5,155 +5,12 @@
 	(uuid "09c102b8-dfc1-4666-b1e2-d0c53b401993")
 	(paper "A4")
 	(title_block
-		(title "Knobber")
+		(title "Base")
 		(date "2026-03-16")
 		(rev "V0.1")
 		(company "Author: Emiel V")
 	)
-	(lib_symbols
-		(symbol "BLDC_mount:BLDC_mount"
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "MH"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BLDC_mount:BLDC_mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BLDC_mount_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -7.62) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -6.35 6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -6.35 -6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -6.35)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy -7.62 7.62)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(wire
 		(pts
 			(xy 74.93 25.4) (xy 116.84 25.4)
@@ -173,207 +30,6 @@
 			(type default)
 		)
 		(uuid "ea03f113-4b22-43e7-b5cf-b37471daf895")
-	)
-	(symbol
-		(lib_id "BLDC_mount:BLDC_mount")
-		(at 135.89 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae3cd8e0-c582-4505-ba18-3d47d5d51707")
-		(property "Reference" "MH1"
-			(at 144.78 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 135.89 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BLDC_mount:BLDC_mount"
-			(at 135.89 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(reference "MH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 195.58 66.04)
-		(size 35.56 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "09b435d4-5eb0-4cf9-81af-6c2df0af7c36")
-		(property "Sheetname" "Motor driver"
-			(at 195.58 65.3284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Motor_driver.kicad_sch"
-			(at 195.58 95.8346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "MOT_UL" input
-			(at 195.58 69.85 180)
-			(uuid "61d152dd-63ed-4389-98ad-fca211763972")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_WH" input
-			(at 195.58 82.55 180)
-			(uuid "39d128ff-80b8-4e71-8631-9d636594d980")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_VH" input
-			(at 195.58 76.2 180)
-			(uuid "e5b6ad99-0eb9-49b4-ba4a-1fd8b1b0061b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_WL" input
-			(at 195.58 85.09 180)
-			(uuid "490f23c9-efcd-4b80-b798-0c2de3b72015")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_UH" input
-			(at 195.58 72.39 180)
-			(uuid "a8ef7970-58b5-412a-926d-6f4ec5e2c6cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_DIAG" output
-			(at 195.58 88.9 180)
-			(uuid "c84506ad-951d-4a38-a777-5e7707cfbeaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_VL" input
-			(at 195.58 78.74 180)
-			(uuid "9d70af67-dabe-4515-97f1-36247538427c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MOT_SENS" output
-			(at 195.58 91.44 180)
-			(uuid "344bc350-041c-4eb6-ad99-dda3613d6433")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "knobber"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
-					(page "6")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 195.58 142.24)
@@ -474,9 +130,135 @@
 			)
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 66.04)
+		(size 35.56 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4b1aecd0-745c-478c-8a7d-60a4da5ea643")
+		(property "Sheetname" "Motor driver"
+			(at 195.58 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_driver.kicad_sch"
+			(at 195.58 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOT_UL" input
+			(at 195.58 69.85 180)
+			(uuid "0988db2a-e307-45df-a66d-ab094ed148a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_WH" input
+			(at 195.58 82.55 180)
+			(uuid "289de2ee-4ae1-418f-8ed0-a7d0363788a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_VH" input
+			(at 195.58 76.2 180)
+			(uuid "1f2b0a19-58dc-4366-9e74-780d02002080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_WL" input
+			(at 195.58 85.09 180)
+			(uuid "238285a7-c3c7-4de0-ab44-83326a6a3b5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_UH" input
+			(at 195.58 72.39 180)
+			(uuid "a4736bef-16c8-472e-9692-a539cc8a4fe5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_DIAG" output
+			(at 195.58 88.9 180)
+			(uuid "8832d26a-e459-4061-9e40-2d03bc4dfe28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_VL" input
+			(at 195.58 78.74 180)
+			(uuid "d655c2e9-0f08-4007-8c14-1d30ce9bb807")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOT_SENS" output
+			(at 195.58 91.44 180)
+			(uuid "3d03ace5-d786-4457-8983-a0bc79d90d23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
+					(page "6")
 				)
 			)
 		)
@@ -530,7 +312,7 @@
 			)
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "2")
 				)
@@ -676,7 +458,7 @@
 			)
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "7")
 				)
@@ -685,7 +467,7 @@
 	)
 	(sheet
 		(at 195.58 21.59)
-		(size 34.29 24.13)
+		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -711,7 +493,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 195.58 46.3046 0)
+			(at 195.58 32.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -731,26 +513,6 @@
 				(justify left)
 			)
 		)
-		(pin "ENC_CLK" input
-			(at 195.58 33.02 180)
-			(uuid "4dc6f319-39fa-4a01-8983-06204c736f85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENC_MISO" output
-			(at 195.58 39.37 180)
-			(uuid "a3076d56-5353-4e81-9104-ebc3bd51f41e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SDA" bidirectional
 			(at 195.58 27.94 180)
 			(uuid "b24c57eb-ba15-4b90-aeaf-b104f2a921ff")
@@ -761,28 +523,8 @@
 				(justify left)
 			)
 		)
-		(pin "ENC__~{CS}" input
-			(at 195.58 35.56 180)
-			(uuid "70e9a45d-068a-4f82-9099-c57e82f01ea1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENC__PUSH" output
-			(at 195.58 41.91 180)
-			(uuid "c1e663e2-d527-4237-85c1-554a8a5aa27d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "4")
 				)
@@ -828,7 +570,7 @@
 			)
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "5")
 				)
@@ -894,7 +636,7 @@
 			)
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "3")
 				)
@@ -1430,7 +1172,7 @@
 			)
 		)
 		(instances
-			(project "knobber"
+			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993"
 					(page "8")
 				)

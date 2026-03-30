@@ -492,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "knobber.kicad_pro",
+    "filename": "HaptiCAD_motor-mount.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1002,50 +1002,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "knobber.kicad_sch",
-        "name": "knobber",
+        "filename": "HaptiCAD_motor-mount.kicad_sch",
+        "name": "HaptiCAD_motor-mount",
         "uuid": "09c102b8-dfc1-4666-b1e2-d0c53b401993"
       }
     ],
-    "used_designators": "MH1",
+    "used_designators": "U401,U501,MH1,#PWR401-404,#PWR409-412,#PWR501-509,C401,C501-502,JP401,#FLG501,R403-406,TP406,TP501-503",
     "variants": []
   },
   "sheets": [
     [
       "09c102b8-dfc1-4666-b1e2-d0c53b401993",
-      "knobber"
-    ],
-    [
-      "4d34a3a7-fe2c-4bc6-8e97-fce892a457e6",
-      "LED lighting"
-    ],
-    [
-      "e939acba-a336-4e5f-bfb8-79d3cd46c7a7",
-      "USB"
-    ],
-    [
-      "52269903-a6ad-4c58-b1b7-76b5aa66afda",
-      "Sensors"
-    ],
-    [
-      "85d824be-943a-4d66-829a-99636d7bcd2c",
-      "Power"
-    ],
-    [
-      "09b435d4-5eb0-4cf9-81af-6c2df0af7c36",
-      "Motor driver"
-    ],
-    [
-      "4d73b7c1-8f89-4c7f-aba6-18c4e8cd91de",
-      "Switches"
-    ],
-    [
-      "f505cfea-b29a-4948-bb0a-48341138c985",
-      "MCU"
-    ],
-    [
-      "1a999a9f-67af-4b14-843e-6d414fc036ec",
-      "LCD"
+      "HaptiCAD_motor-mount"
     ]
   ],
   "text_variables": {},
