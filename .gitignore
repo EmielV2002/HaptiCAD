@@ -30,3 +30,5 @@ fp-info-cache
 *.xml
 *.csv
 /HaptiCAD/.history
+/HaptiCAD_base/.history
+/HaptiCAD_motor-mount/.history
