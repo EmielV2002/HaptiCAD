@@ -11,201 +11,6 @@
 		(company "Author: Emiel V")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:LMV321"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LMV321"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "single opamp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* *SC*70*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LMV321_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LMV321_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016)
@@ -431,129 +236,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -709,6 +391,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -839,6 +711,414 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Driver_Motor:STSPIN233"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.7 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STSPIN233"
+				(at 5.08 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
+				(at 5.08 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "www.st.com/resource/en/datasheet/stspin233.pdf"
+				(at 3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low voltage three phase and three sense motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "motor driver half-bridge"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STSPIN233_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "STSPIN233_1_1"
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "INU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "ENU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "OUTU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "SENSEU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "OUTV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "SENSEV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "SENSEW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "OUTW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "INW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "ENW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "EN/FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "STBY/RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "INV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "ENV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1097,615 +1377,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TMC6300:TMC6300-LA-T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 23.622 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TMC6300-LA-T"
-				(at -12.7 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TMC6300-LA-T:QFN40P300X300X90-21N"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Analog Devices"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TMC6300-LA-T/Analog+Devices/view-part/?ref=eda"
-				(at 0.508 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "1.08"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC6300-LA-T/Analog+Devices/view-part/?ref=snap"
-				(at 0.508 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "TMC6300-LA-T"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Triple Half Bridge Motor Controller and Driver 20-Pin QFN EP T/R"
-				(at 0.508 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Trinamic"
-				(at 1.27 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "TMC6300-LA-T_0_0"
-				(rectangle
-					(start -12.7 22.86)
-					(end 12.7 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "W"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 17.78 0)
-					(length 5.08)
-					(name "VCP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "UH"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "VH"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "WH"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "UL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "WL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -20.32 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "VL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -15.24 0)
-					(length 5.08)
-					(name "VIO/~{STDBY}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "DIAG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -27.94 180)
-					(length 5.08)
-					(name "1.8VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 20.32 180)
-					(length 5.08)
-					(name "U"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "BRUV"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 17.78 180)
-					(length 5.08)
-					(name "V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 20.32 0)
-					(length 5.08)
-					(name "VS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 17.78 -25.4 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "BRW"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -27.94 0)
-					(length 5.08)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TMC6300-LA-T_1_0"
-				(pin power_in line
-					(at -17.78 -22.86 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -25.4 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text_box "BLDC motor driver"
 		(exclude_from_sim no)
 		(at 43.18 22.86 0)
-		(size 212.09 97.79)
+		(size 139.7 82.55)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.25)
@@ -1724,1350 +1400,608 @@
 		)
 		(uuid "1107ae38-efb7-44b4-8f54-7e391ce038c1")
 	)
-	(text_box "Motor driver - testpoints"
-		(exclude_from_sim no)
-		(at 43.18 129.54 0)
-		(size 50.8 48.26)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.25)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "17fb760b-364e-488d-805f-bd29c19c37c1")
-	)
 	(junction
-		(at 146.05 90.17)
+		(at 158.75 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0658637a-12a5-4a07-941a-2772611ef502")
+		(uuid "39a4b973-db61-4213-9d63-91720aa5e08e")
 	)
 	(junction
-		(at 146.05 87.63)
+		(at 87.63 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18a78593-bce0-4109-8f9c-86af4ce563cc")
+		(uuid "4a732e11-5997-4bd7-bd6b-55b161e2f8c9")
 	)
 	(junction
-		(at 209.55 99.06)
+		(at 151.13 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2daa0b2e-1b72-43f3-8eb7-b94c8daa6899")
+		(uuid "531a4378-4899-4833-9f9c-95cf66f5ee99")
 	)
 	(junction
-		(at 78.74 64.77)
+		(at 77.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "31aa2236-9b8d-4077-a82a-d081406d3964")
+		(uuid "e2e26239-c4bc-4944-adb8-712103053964")
 	)
 	(junction
-		(at 109.22 54.61)
+		(at 144.78 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39498e67-b3a1-4dcc-85a1-693050596d20")
+		(uuid "e6fb1bd8-0969-46cb-9828-23ae9dc66ed5")
 	)
 	(junction
-		(at 191.77 69.85)
+		(at 151.13 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fc7fc53-23b8-44ec-a596-2e6d1959ec24")
+		(uuid "ee1832e7-30cd-4df4-a982-d242398d0a4c")
 	)
 	(junction
-		(at 68.58 91.44)
+		(at 64.77 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "479bc683-7116-44c4-a9ca-988aef5a3af4")
-	)
-	(junction
-		(at 99.06 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c607a2b-b979-4544-b7c0-a75dcbfd7215")
-	)
-	(junction
-		(at 134.62 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "714f2673-f3db-49ea-bacb-79692482b08a")
-	)
-	(junction
-		(at 128.27 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c7db3b5-dbcf-46f9-b1c8-d82a43f3573d")
+		(uuid "f6681cf6-f853-4d96-b39f-0f3dbc615124")
 	)
-	(junction
-		(at 146.05 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eb9db48-9380-4d6f-9cc9-70a86a45ae47")
-	)
-	(junction
-		(at 121.92 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f07d4a1-c4dc-488d-aefb-01ddd3453d45")
-	)
-	(junction
-		(at 146.05 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82f0b020-7ea8-417b-81cf-b24b6aaa0e69")
-	)
-	(junction
-		(at 58.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90a0f65d-414b-41ae-85a2-2e312095b62c")
-	)
-	(junction
-		(at 223.52 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94b9a4e4-ab7f-470e-b550-528878a18095")
-	)
-	(junction
-		(at 58.42 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a073429-e998-44ad-98d5-6c1b6caf9da3")
-	)
-	(junction
-		(at 107.95 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3198543-3b98-46a5-9af9-62df173fdad1")
-	)
-	(junction
-		(at 68.58 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8e9f2c4-1342-4dd8-a18a-f3aeb98f8413")
-	)
-	(junction
-		(at 88.9 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa2421a2-8b77-4deb-a0a9-a3275a5662c1")
-	)
-	(junction
-		(at 191.77 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c17cf680-005b-47c7-b670-e9b30159fd87")
-	)
-	(junction
-		(at 78.74 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c576e30a-969e-4a80-bf4f-b28d813803d7")
-	)
-	(junction
-		(at 237.49 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8224f65-5494-4fc6-a585-9848e6d3ec5b")
-	)
-	(junction
-		(at 99.06 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea10af50-8c24-4e52-8759-f5a93c8bffb0")
-	)
-	(junction
-		(at 88.9 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f001514d-4279-46b1-9707-6419489401e6")
-	)
-	(wire
-		(pts
-			(xy 109.22 88.9) (xy 109.22 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01c20eb7-cf55-4167-a939-18e2cb270e3c")
-	)
-	(wire
-		(pts
-			(xy 78.74 91.44) (xy 88.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02dd11f2-63fe-4755-a31d-4e8674426244")
-	)
-	(wire
-		(pts
-			(xy 185.42 69.85) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b6abab-3a8c-449c-bf8c-3d1fdff7ef3a")
-	)
-	(wire
-		(pts
-			(xy 191.77 72.39) (xy 218.44 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0677cf08-7e4d-452e-b68b-d4fe5b77b2b0")
-	)
-	(wire
-		(pts
-			(xy 149.86 46.99) (xy 146.05 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a404aa3-4f5e-4f88-b6fa-4285166ccaa5")
-	)
-	(wire
-		(pts
-			(xy 146.05 92.71) (xy 149.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cabbfb4-6d84-470b-a9ea-9c84f5416424")
-	)
-	(wire
-		(pts
-			(xy 54.61 54.61) (xy 109.22 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cdf43b5-28b7-4362-8da1-8bd9ded81b8f")
-	)
-	(wire
-		(pts
-			(xy 54.61 162.56) (xy 68.58 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2427af-82ad-4fdb-b927-98c1d18964c2")
-	)
-	(wire
-		(pts
-			(xy 146.05 92.71) (xy 146.05 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ddd6a5-6b5c-49f0-ba6c-c23cdd405ed5")
-	)
-	(wire
-		(pts
-			(xy 78.74 64.77) (xy 78.74 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17c1035c-46ff-4bb8-adb0-d1d1beaa4ea6")
-	)
-	(wire
-		(pts
-			(xy 128.27 80.01) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4b8da5-2eaa-40a4-aabd-9c6c7a2c8e53")
-	)
-	(wire
-		(pts
-			(xy 242.57 63.5) (xy 242.57 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c65643c-f6b6-41cd-a2d7-655267ed2529")
-	)
-	(wire
-		(pts
-			(xy 146.05 87.63) (xy 146.05 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6dd84f-c1e4-44a1-85ed-bded411dc235")
-	)
-	(wire
-		(pts
-			(xy 54.61 72.39) (xy 58.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1edbf7f0-a88d-42e9-97f1-424cf5be547c")
-	)
-	(wire
-		(pts
-			(xy 58.42 72.39) (xy 58.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225fc692-4ee2-4a49-997c-e61473c42bc1")
-	)
-	(wire
-		(pts
-			(xy 209.55 99.06) (xy 209.55 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2478b3f5-70df-482b-a13b-f2cffbf4c917")
-	)
-	(wire
-		(pts
-			(xy 68.58 91.44) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2723e348-0a98-4af8-a18d-35795f1aa510")
-	)
-	(wire
-		(pts
-			(xy 146.05 104.14) (xy 146.05 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283e5821-6311-45ff-84b9-420cd733041d")
-	)
-	(wire
-		(pts
-			(xy 68.58 69.85) (xy 149.86 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f9214a-f073-45c9-a352-32d0708e82f1")
-	)
-	(wire
-		(pts
-			(xy 54.61 64.77) (xy 78.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c25cc9-5aee-4bee-9706-069306c0cd0d")
-	)
-	(wire
-		(pts
-			(xy 128.27 101.6) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab69fc6-55b4-4ca4-81ed-4b3cb858426e")
-	)
-	(wire
-		(pts
-			(xy 146.05 87.63) (xy 149.86 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac82f8d-09b6-40b5-a068-14377226be14")
-	)
-	(wire
-		(pts
-			(xy 68.58 88.9) (xy 68.58 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b07acde-2cb8-4fc2-b6a4-7183f3a6a211")
-	)
-	(wire
-		(pts
-			(xy 134.62 34.29) (xy 146.05 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cae512d-2b34-404b-bb08-36da4109e11c")
-	)
-	(wire
-		(pts
-			(xy 109.22 54.61) (xy 109.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e8d5023-6de7-4ac0-aa8f-7db8aa477fb3")
-	)
-	(wire
-		(pts
-			(xy 237.49 74.93) (xy 242.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4038d684-efa3-41c7-a9ae-a3181a81afaf")
-	)
-	(wire
-		(pts
-			(xy 128.27 78.74) (xy 128.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f47398-5106-4201-912d-03a431be4564")
-	)
-	(wire
-		(pts
-			(xy 54.61 57.15) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "460cae31-5016-4641-a9a8-50ece1739277")
-	)
-	(wire
-		(pts
-			(xy 54.61 69.85) (xy 68.58 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470c533e-819c-4699-9beb-6a7e467e0c11")
-	)
-	(wire
-		(pts
-			(xy 191.77 72.39) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1430b0-8ef7-4932-af44-e74c5b9558e3")
-	)
-	(wire
-		(pts
-			(xy 54.61 148.59) (xy 68.58 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8a179d-e36f-41d5-98c1-68643149b0db")
-	)
-	(wire
-		(pts
-			(xy 209.55 77.47) (xy 209.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5250271d-f955-4338-acec-fb3d3b9895db")
-	)
-	(wire
-		(pts
-			(xy 233.68 74.93) (xy 237.49 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546aa518-2441-482d-bd86-0f381ad6638d")
-	)
-	(wire
-		(pts
-			(xy 209.55 110.49) (xy 209.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a7f8cf-2d9b-4d4f-b606-ad50bff576e9")
-	)
-	(wire
-		(pts
-			(xy 54.61 138.43) (xy 68.58 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c381f68-d92d-41e3-b3cf-36d9cac30746")
-	)
-	(wire
-		(pts
-			(xy 191.77 92.71) (xy 191.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60910376-663d-492e-afaf-cc8640c70559")
-	)
-	(wire
-		(pts
-			(xy 185.42 44.45) (xy 191.77 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62524140-7e0d-49f4-abe6-edb9aa9c14fd")
-	)
-	(wire
-		(pts
-			(xy 134.62 35.56) (xy 134.62 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a1aa4c-ce02-4691-8437-56870acf6863")
-	)
-	(wire
-		(pts
-			(xy 209.55 99.06) (xy 219.71 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7e52d4-eca6-4073-a575-a3303498e646")
-	)
-	(wire
-		(pts
-			(xy 185.42 72.39) (xy 191.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726e4003-13b0-4ab5-bfb9-a722ac325f12")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 149.86 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7479e275-5835-4b9a-992c-bf5d29e5382d")
-	)
-	(wire
-		(pts
-			(xy 99.06 57.15) (xy 149.86 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75952f48-2922-4aa7-87bd-a70f0d79e645")
-	)
-	(wire
-		(pts
-			(xy 58.42 91.44) (xy 58.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77da6f33-f749-4cf5-b346-c675a75fabf3")
-	)
-	(wire
-		(pts
-			(xy 185.42 49.53) (xy 191.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bf48aa6-89e5-413c-a6f7-7191d29e4b37")
-	)
-	(wire
-		(pts
-			(xy 146.05 90.17) (xy 146.05 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb735ae-d05f-4819-bcb9-fb8dc37b390c")
-	)
-	(wire
-		(pts
-			(xy 128.27 80.01) (xy 149.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803f540b-942d-43cb-8757-3365013ee418")
-	)
-	(wire
-		(pts
-			(xy 58.42 72.39) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831d92b8-347d-48f5-9328-ca14a5380011")
-	)
-	(wire
-		(pts
-			(xy 185.42 92.71) (xy 191.77 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834451a6-dcb5-4099-b938-9c2bbd822f94")
-	)
-	(wire
-		(pts
-			(xy 121.92 35.56) (xy 121.92 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83daf763-e768-459e-ab8b-271efe7209ea")
-	)
-	(wire
-		(pts
-			(xy 146.05 46.99) (xy 146.05 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8692afb7-bd67-4a6e-b224-0812fbfe30ec")
-	)
-	(wire
-		(pts
-			(xy 58.42 91.44) (xy 68.58 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8778f648-7bef-4bf9-a3bd-41948e429ee4")
-	)
 	(wire
 		(pts
-			(xy 191.77 81.28) (xy 191.77 83.82)
+			(xy 64.77 82.55) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "893d6d00-a4e9-409e-afc4-020c88c1a6d2")
+		(uuid "03133f81-505d-4080-98aa-761b513fcffa")
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 149.86 77.47)
+			(xy 151.13 82.55) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94d43299-3a9e-4798-afbf-f56ff8ace0b0")
+		(uuid "03458624-c05b-41f1-a185-37daeca0b251")
 	)
 	(wire
 		(pts
-			(xy 54.61 140.97) (xy 68.58 140.97)
+			(xy 87.63 69.85) (xy 87.63 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9dc4fbf2-e2f9-470b-b93a-04b7b00fe1af")
+		(uuid "07032c94-cdd0-4ecf-b3be-aa6dbf50bf06")
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 99.06 91.44)
+			(xy 107.95 74.93) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e203558-04a9-42f3-bb90-3eb11d08a27c")
+		(uuid "09177056-4400-4787-af0d-ddf0a797a603")
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 88.9 81.28)
+			(xy 157.48 62.23) (xy 157.48 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a00a6635-b44e-47e6-895f-1be6f17d3493")
+		(uuid "12d6cc52-9439-47cc-a5b4-b5a4a5a67691")
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 121.92 34.29)
+			(xy 133.35 33.02) (xy 133.35 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0e0fc42-087a-47e7-b136-b9f9c7768679")
+		(uuid "1706bbaa-1dd4-4482-9b55-768f677a2e7a")
 	)
 	(wire
 		(pts
-			(xy 54.61 168.91) (xy 68.58 168.91)
+			(xy 148.59 72.39) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1b0e9e4-aacb-415a-bf49-c4acfac36be1")
+		(uuid "1a474fbf-1d92-453c-9d4f-d5b930b5d7a2")
 	)
 	(wire
 		(pts
-			(xy 99.06 91.44) (xy 109.22 91.44)
+			(xy 77.47 80.01) (xy 77.47 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b10275a2-ded9-467d-be3f-7cd2a5fd4e92")
+		(uuid "1cf63d63-ff1f-4bdd-807e-ebec53b7f25a")
 	)
 	(wire
 		(pts
-			(xy 54.61 156.21) (xy 68.58 156.21)
+			(xy 157.48 72.39) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2329753-b3c1-4704-b5d5-678d4bf04f5f")
+		(uuid "24de585b-6e98-4c31-8424-e2ffb4d8a768")
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 68.58 81.28)
+			(xy 64.77 78.74) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b29b7098-9e1b-46b0-8e35-313cbd7a1dd9")
+		(uuid "255c0744-bab0-4769-9e0a-14fd8e83dde5")
 	)
 	(wire
 		(pts
-			(xy 54.61 62.23) (xy 88.9 62.23)
+			(xy 148.59 64.77) (xy 170.18 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8c09f19-5552-4963-99c9-1f425a0cac40")
+		(uuid "3870c89e-5ba8-4641-89c1-0b0676240aa5")
 	)
 	(wire
 		(pts
-			(xy 99.06 57.15) (xy 99.06 81.28)
+			(xy 158.75 34.29) (xy 158.75 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8e63b8d-9bfb-4775-8a46-1b7974704cef")
+		(uuid "41a3ebc0-77fa-4507-91c5-971ea7c55f73")
 	)
 	(wire
 		(pts
-			(xy 109.22 54.61) (xy 149.86 54.61)
+			(xy 64.77 68.58) (xy 64.77 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b985aa13-2624-4239-bf7b-bd987dee5a51")
+		(uuid "4243bbff-8006-4803-8d35-adff462de1a2")
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 149.86 64.77)
+			(xy 133.35 90.17) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbef228c-9020-4a68-a511-53a8dc4b9bff")
+		(uuid "48e9e777-136d-4774-a0ad-99730b240c22")
 	)
 	(wire
 		(pts
-			(xy 121.92 34.29) (xy 134.62 34.29)
+			(xy 158.75 31.75) (xy 158.75 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcf3c109-eb62-4e66-9aee-b46d955331bd")
+		(uuid "4c732027-a1eb-4477-bdbb-7334a28ead62")
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 223.52 85.09)
+			(xy 107.95 59.69) (xy 118.11 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be07d534-bbcb-4109-9283-621ffcf361dc")
+		(uuid "4e29e921-c1ff-40c6-a92e-59e657e6bfa3")
 	)
 	(wire
 		(pts
-			(xy 191.77 67.31) (xy 191.77 69.85)
+			(xy 157.48 67.31) (xy 170.18 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf9159b3-61a6-4141-9b96-a964dad67410")
+		(uuid "50463fa8-92f5-4754-9cb8-1e3d4ea4e4f1")
 	)
 	(wire
 		(pts
-			(xy 54.61 146.05) (xy 68.58 146.05)
+			(xy 107.95 64.77) (xy 118.11 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0d80766-52a1-479d-afdb-05a62316435a")
+		(uuid "65f19d6d-2fd0-4c30-ba3b-077c83bc7daa")
 	)
 	(wire
 		(pts
-			(xy 185.42 46.99) (xy 191.77 46.99)
+			(xy 77.47 91.44) (xy 77.47 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2a44755-00de-477b-bdfe-2cf9d6b4c782")
+		(uuid "674786ba-e115-44a7-a642-e1a64518081f")
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 134.62 45.72)
+			(xy 64.77 91.44) (xy 64.77 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8ed7dd8-0192-45c8-b40e-700ede64a0cb")
+		(uuid "6e932b8a-ebd1-489b-ad2d-f28a2e0b21f6")
 	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 223.52 67.31)
+			(xy 151.13 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9c0a563-2428-4774-9d1a-c10d1cad2e92")
+		(uuid "70282980-5b52-411b-9d4c-505fca2c76e0")
 	)
 	(wire
 		(pts
-			(xy 227.33 63.5) (xy 223.52 63.5)
+			(xy 144.78 34.29) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbc6ddb7-d833-408a-be04-4c9f9b82f74e")
+		(uuid "7c49d9eb-a1eb-45cc-b1ca-9b349ae59112")
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 107.95 45.72)
+			(xy 77.47 68.58) (xy 77.47 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc860c0f-087e-4048-8c16-9df5c9e12aee")
+		(uuid "8076cf36-0218-43cc-8e3e-f4338e06934e")
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 149.86 62.23)
+			(xy 64.77 82.55) (xy 64.77 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2be2d71-3e75-4afe-8ac0-7bf1674d3083")
+		(uuid "83c4674a-a85a-494c-8f9d-783226a635e4")
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 91.44)
+			(xy 151.13 77.47) (xy 151.13 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d30162d4-c30b-42dd-9008-78183e86d557")
+		(uuid "88a66365-0057-4483-9d58-42e3450ee175")
 	)
 	(wire
 		(pts
-			(xy 209.55 77.47) (xy 218.44 77.47)
+			(xy 158.75 41.91) (xy 158.75 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d393a8ef-68d2-4b74-a3b6-b84705f36c3e")
+		(uuid "8cae58b3-55fc-4d79-8e5e-f61bc7411a88")
 	)
 	(wire
 		(pts
-			(xy 107.95 35.56) (xy 107.95 34.29)
+			(xy 148.59 77.47) (xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5d2feb8-5e90-4ad3-93cb-8bcfd4440e36")
+		(uuid "9ba0b0bd-6216-4d7f-8e64-b50d36381f70")
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 237.49 74.93)
+			(xy 87.63 80.01) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbd85524-452c-45ab-a844-dba99eb19ff2")
+		(uuid "a32adf0b-b4cb-44d7-996e-aea409e081ef")
 	)
 	(wire
 		(pts
-			(xy 227.33 99.06) (xy 237.49 99.06)
+			(xy 77.47 80.01) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e49dda27-9bf2-4184-9d8c-3201d46a2656")
+		(uuid "a671c5ba-6dd9-45e0-b222-82c52623a101")
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 121.92 45.72)
+			(xy 133.35 33.02) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e561c8f6-5569-4728-9860-bdd4b43115c1")
+		(uuid "bb2d2d40-20cf-4619-ace2-0c1851bc5822")
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 58.42 91.44)
+			(xy 87.63 78.74) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7044b55-490f-41f1-a9cb-183c200b6ee1")
+		(uuid "bc834ffd-0f66-41c7-9856-ebc1227bde08")
 	)
 	(wire
 		(pts
-			(xy 54.61 173.99) (xy 68.58 173.99)
+			(xy 50.8 80.01) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e798bd28-51dd-43b5-b563-f5d47fb2bd03")
+		(uuid "be2407b2-d3af-4cc8-a3ff-e78c9edbe495")
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 107.95 34.29)
+			(xy 148.59 80.01) (xy 151.13 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e822d1aa-f429-44f3-acd8-f0487352ad3a")
+		(uuid "c3bd91e3-0bbf-4cfc-8000-d307087bef49")
 	)
 	(wire
 		(pts
-			(xy 146.05 44.45) (xy 149.86 44.45)
+			(xy 77.47 78.74) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e83a8b83-f46d-483c-af16-3745e8d3b4d8")
+		(uuid "c5cfce7c-03b4-48ff-8670-334347c46c5c")
 	)
 	(wire
 		(pts
-			(xy 54.61 171.45) (xy 68.58 171.45)
+			(xy 144.78 41.91) (xy 144.78 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea2c3644-69ab-4892-a50c-bd05ce4f1d11")
+		(uuid "ca32e5d4-230b-4c41-9c84-0e0396cfcbec")
 	)
 	(wire
 		(pts
-			(xy 54.61 153.67) (xy 68.58 153.67)
+			(xy 87.63 60.96) (xy 87.63 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea9d7b6e-c2d4-4469-a138-57057ad90137")
+		(uuid "cda2b534-9d0e-4608-b285-70139cad79d5")
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 191.77 72.39)
+			(xy 107.95 67.31) (xy 118.11 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edf54342-9418-4034-b741-d2a27eb2ca79")
+		(uuid "df7d4c01-3532-4645-b26d-6a9a36c7f412")
 	)
 	(wire
 		(pts
-			(xy 223.52 62.23) (xy 223.52 63.5)
+			(xy 59.69 82.55) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef6a5961-c8c3-4992-87ba-1fba648b0e23")
+		(uuid "e02845d4-9df0-4e06-9b42-e838db95633c")
 	)
 	(wire
 		(pts
-			(xy 234.95 63.5) (xy 242.57 63.5)
+			(xy 107.95 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f27df6a4-4870-4298-ac97-83c1193a422f")
+		(uuid "e1961c1b-4a74-4921-8167-4f2a710aa120")
 	)
 	(wire
 		(pts
-			(xy 146.05 34.29) (xy 146.05 44.45)
+			(xy 151.13 80.01) (xy 151.13 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4b0944e-8f0d-4b21-9753-d0ef1bc5a1fc")
+		(uuid "e86d272f-70d1-45ee-ba5d-840959c5fd68")
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 91.44)
+			(xy 157.48 57.15) (xy 148.59 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f78de51b-a589-4686-9563-a3e3fe7f63ff")
+		(uuid "ebda2dd9-de47-4f59-a83b-6b65bd37e229")
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 78.74 91.44)
+			(xy 157.48 62.23) (xy 170.18 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fab2c649-1870-4f04-9bf1-49545d69f8d8")
+		(uuid "f1f25760-d2a8-4c94-b97f-6d0275495f05")
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 149.86 90.17)
+			(xy 107.95 57.15) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fba1a4dd-ea77-4590-9cf4-eb38fd84bdc8")
+		(uuid "f5ce9bd7-db23-4cd2-82e4-c85bc8e81bf0")
 	)
 	(wire
 		(pts
-			(xy 191.77 101.6) (xy 191.77 104.14)
+			(xy 158.75 33.02) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd03edeb-14ed-4062-9512-8cea20fb7093")
+		(uuid "fce452a6-f665-4129-89a5-d3a7536fecdf")
 	)
 	(label "MOT_V"
-		(at 54.61 171.45 0)
+		(at 162.56 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "074178de-fcb5-4740-9062-8896101608d3")
-	)
-	(label "MOT_W"
-		(at 54.61 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a603fc36-16fa-4be3-bd3c-5bf065a21347")
-	)
-	(label "MOT_V"
-		(at 191.77 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab1265de-f1aa-4651-bb3c-de221e26c549")
+		(uuid "53649196-df2e-4863-a96e-851f8a52bfda")
 	)
 	(label "MOT_U"
-		(at 191.77 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddc9a0b2-7b81-4b2f-a4fe-53ced9a6949d")
-	)
-	(label "MOT_W"
-		(at 191.77 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ea43037f-f5e4-4d16-8979-8d1fe64a7386")
-	)
-	(label "MOT_U"
-		(at 54.61 168.91 0)
+		(at 162.56 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f4704408-e62a-4afd-bab3-395d5455951e")
+		(uuid "697a2341-fde7-42af-b3ca-821321ca2b8c")
 	)
-	(hierarchical_label "MOT_DIAG"
-		(shape output)
-		(at 54.61 162.56 180)
+	(label "EN{slash}FAULT"
+		(at 50.8 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "1b98ee4b-758d-4f95-9293-2e0b03a50282")
+		(uuid "86d5bab6-e7d5-4bd6-8fdc-6d639e709bd1")
 	)
-	(hierarchical_label "MOT_WL"
+	(label "MOT_W"
+		(at 162.56 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd88fe7-e554-4b4a-9a42-4265ae0cb5d4")
+	)
+	(hierarchical_label "PWM_V"
 		(shape input)
-		(at 54.61 156.21 180)
+		(at 107.95 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "447cfcf3-c5f8-486d-977b-3e433638cf83")
+		(uuid "176539ce-b7d8-4de6-830b-b200eac798f5")
 	)
-	(hierarchical_label "MOT_WH"
+	(hierarchical_label "PWM_U"
 		(shape input)
-		(at 54.61 69.85 180)
+		(at 107.95 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "49b0e356-ec8a-40fa-87c1-d5ddad70cf43")
+		(uuid "1b61bf97-1f50-4280-b3d7-ad6556232e4e")
 	)
-	(hierarchical_label "MOT_WH"
+	(hierarchical_label "EN_W"
 		(shape input)
-		(at 54.61 153.67 180)
+		(at 107.95 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7c523884-f1dc-4d8c-9d52-545a9a084be0")
+		(uuid "4ca5df53-1156-44e8-b6e3-0078ed9898ba")
 	)
-	(hierarchical_label "MOT_UL"
+	(hierarchical_label "~{MOT_SHDN}"
 		(shape input)
-		(at 54.61 140.97 180)
+		(at 59.69 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "83885268-0f28-4f72-b980-cd3bce6d1113")
+		(uuid "aa41af05-337e-49dd-8573-345eb007ed6d")
 	)
-	(hierarchical_label "MOT_VH"
+	(hierarchical_label "EN_U"
 		(shape input)
-		(at 54.61 62.23 180)
+		(at 107.95 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "96cf8b44-9809-406f-b004-4c3f170a7dad")
+		(uuid "ad7991c3-8460-4d0a-8ddb-c5e6c8adcc87")
 	)
-	(hierarchical_label "MOT_VH"
+	(hierarchical_label "EN_V"
 		(shape input)
-		(at 54.61 146.05 180)
+		(at 107.95 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9968dd90-871e-4114-ba2e-116f3cd24659")
+		(uuid "dc41a548-c43b-44db-8cfc-7b12e40eb3ef")
 	)
-	(hierarchical_label "MOT_WL"
+	(hierarchical_label "PWM_W"
 		(shape input)
-		(at 54.61 72.39 180)
+		(at 107.95 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9d77a4ed-b5ea-4f79-a01b-3f6292dda661")
-	)
-	(hierarchical_label "MOT_UH"
-		(shape input)
-		(at 54.61 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6b5356f-a99e-420b-89d1-accdde3125a7")
-	)
-	(hierarchical_label "MOT_VL"
-		(shape input)
-		(at 54.61 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac88972f-f002-48d2-94ce-8916472621ff")
-	)
-	(hierarchical_label "MOT_UL"
-		(shape input)
-		(at 54.61 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b53c6c59-0eab-4c1a-b629-f2080def2598")
-	)
-	(hierarchical_label "MOT_UH"
-		(shape input)
-		(at 54.61 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7aa1be9-fe20-460c-a935-835023c5a444")
-	)
-	(hierarchical_label "MOT_DIAG"
-		(shape output)
-		(at 146.05 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1a2b8fb-5724-4c65-ac80-081a8eeab532")
-	)
-	(hierarchical_label "MOT_VL"
-		(shape input)
-		(at 54.61 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efd2fbd5-7bda-4549-8003-110b24bdc612")
-	)
-	(hierarchical_label "MOT_SENS"
-		(shape output)
-		(at 242.57 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f020f0c0-8356-40c8-a90d-467e58659550")
+		(uuid "f94c479a-6a43-40f8-9f4b-46477a954a5f")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 128.27 97.79 0)
+		(lib_id "Device:R")
+		(at 87.63 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3075,101 +2009,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "033226d3-be13-4940-8831-729bdf4badec")
-		(property "Reference" "C603"
-			(at 132.08 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1nF"
-			(at 132.08 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 129.2352 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 133.858 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b2a7d37-f76f-4e62-a161-79c61ea9a941")
-		)
-		(pin "1"
-			(uuid "00e5f5b9-93cf-4e44-ba55-9f1aea9239a7")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "C603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "03bddaeb-a006-4403-8bff-862ad2a185f9")
-		(property "Reference" "R603"
-			(at 81.28 83.8199 0)
+		(uuid "02ea0802-b76b-4bf7-9818-741372f7a233")
+		(property "Reference" "R303"
+			(at 90.17 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3179,8 +2022,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 81.28 86.3599 0)
+		(property "Value" "3.3k"
+			(at 90.17 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3191,7 +2034,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.518 85.09 90)
+			(at 89.408 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3202,7 +2045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 85.09 0)
+			(at 87.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +2056,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 85.09 0)
+			(at 87.63 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,93 +2067,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "71782bb4-19e1-49a1-bcfd-c1813cf621f7")
+			(uuid "cba78008-c740-44e7-a98e-7193ab5f8549")
 		)
 		(pin "2"
-			(uuid "aae48d70-9164-4226-a21d-fa162c592473")
+			(uuid "761ffb3f-4b2b-4de5-a644-6bd6b2791693")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 107.95 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05e68ed8-f840-41c1-8409-c5c399c75de3")
-		(property "Reference" "#PWR0602"
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 107.95 29.21 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 107.95 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03a53fbd-78ac-425e-8e39-9f71ae2c5871")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0602")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -3318,7 +2083,8 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 146.05 104.14 0)
+		(at 158.75 44.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3327,9 +2093,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "061a202c-cb3c-4ad7-8326-be4fe552172d")
-		(property "Reference" "#PWR0608"
-			(at 146.05 110.49 0)
+		(uuid "03ab9562-3aaa-40d2-9e93-c2924eb148c7")
+		(property "Reference" "#PWR0616"
+			(at 158.75 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3340,7 +2106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 107.95 0)
+			(at 158.75 48.26 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3350,7 +2116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 104.14 0)
+			(at 158.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +2127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 104.14 0)
+			(at 158.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,7 +2138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 113.03 0)
+			(at 158.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3383,20 +2149,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a57d750-7e92-44a0-900c-7a5af08675ba")
+			(uuid "b1ac2e97-63fa-487a-b55a-c6d0a616cf62")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0608")
+					(reference "#PWR0616")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 121.92 39.37 0)
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 64.77 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3404,31 +2170,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0a73fe97-b639-4a6c-8b0f-adc906ad8461")
-		(property "Reference" "C602"
-			(at 125.73 38.0999 0)
+		(fields_autoplaced yes)
+		(uuid "0b975f76-daae-4c89-9075-97fe22b7967f")
+		(property "Reference" "#PWR0622"
+			(at 64.77 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1nF"
-			(at 125.73 40.6399 0)
+		(property "Value" "3.3V"
+			(at 64.77 64.77 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 122.8852 43.18 0)
+		(property "Footprint" ""
+			(at 64.77 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +2205,481 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 39.37 0)
+			(at 64.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 64.77 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abac7773-ea20-4a1e-8d1d-25315b676325")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0622")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 133.35 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e952ae8-8d2a-4174-8b68-209529a2857d")
+		(property "Reference" "#PWR0618"
+			(at 133.35 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 97.79 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85add131-1d42-44f1-be0d-dceadc3cd631")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0618")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 144.78 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f621e71-a461-49d8-bbfb-3c24c98a9fcd")
+		(property "Reference" "#PWR0617"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 48.26 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd11daf4-c982-4347-abe3-7ef4c91ae8a3")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 77.47 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e4bd9c-98ab-42bc-8316-c647b36ec371")
+		(property "Reference" "#PWR0620"
+			(at 77.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 97.79 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a6bdeda-7d0b-4d53-8d2c-276f59d83843")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0620")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 64.77 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2237a432-9aaf-48e4-9958-d723497e49c6")
+		(property "Reference" "#PWR0621"
+			(at 64.77 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 97.79 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e1a785f-aeb8-46b6-9500-8cd06a9ffb72")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0621")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 158.75 31.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29d060eb-27fb-4e6a-8d2e-1f23ba2859dd")
+		(property "Reference" "#PWR0615"
+			(at 158.75 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 158.75 27.94 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 158.75 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b00bcbbb-4124-45ca-a08f-d0aab65540fe")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 38.1 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44049088-a730-4324-b0e3-8dd1de2135cb")
+		(property "Reference" "C607"
+			(at 154.94 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 154.94 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 157.7848 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3450,7 +2690,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 39.37 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3461,7 +2701,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 127.508 43.18 0)
+			(at 153.162 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3471,379 +2711,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "aedca139-c36c-484a-a8d2-f86b4b0b170d")
+			(uuid "2d04ba13-c7c8-4ab7-a901-99d6e70a5b0e")
 		)
 		(pin "1"
-			(uuid "df9999ff-7535-4c92-95b0-8004f6fee26c")
+			(uuid "5bc68f7e-7684-424f-8214-9ad5a5d24397")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "C602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TMC6300:TMC6300-LA-T")
-		(at 167.64 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc0a9b7-bc10-474d-abfd-43811955d8ea")
-		(property "Reference" "U601"
-			(at 167.64 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMC6300-LA-T"
-			(at 167.64 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TMC6300:QFN40P300X300X90-21N"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TMC6300-LA-T/Analog+Devices/view-part/?ref=eda"
-			(at 168.148 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.08"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC6300-LA-T/Analog+Devices/view-part/?ref=snap"
-			(at 168.148 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TMC6300-LA-T"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Triple Half Bridge Motor Controller and Driver 20-Pin QFN EP T/R"
-			(at 168.148 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Trinamic"
-			(at 168.91 34.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "0ccaafe8-c0f0-43c4-8a61-995871416f83")
-		)
-		(pin "18"
-			(uuid "421a0eb6-4d6b-40cc-b572-287a14482094")
-		)
-		(pin "10"
-			(uuid "ec44d054-8f4c-41b2-af4e-70804877d118")
-		)
-		(pin "12"
-			(uuid "7998a785-1558-4fdc-9ffb-f8f2b5dd6c79")
-		)
-		(pin "15"
-			(uuid "ab8bea0c-2f96-4750-89d0-f8db54042745")
-		)
-		(pin "19"
-			(uuid "90ca5868-8358-42d1-8c87-bece17c8fca2")
-		)
-		(pin "13"
-			(uuid "98dfe06c-142b-44e7-a0c0-9d4f53de3ef9")
-		)
-		(pin "14"
-			(uuid "f19f0a80-cd85-4641-b250-c9a190bafa67")
-		)
-		(pin "21"
-			(uuid "a5ef03b8-e41b-4c45-b145-397b3e37c156")
-		)
-		(pin "6"
-			(uuid "90fb70fc-25de-4efd-bed7-095118f3edc8")
-		)
-		(pin "7"
-			(uuid "78d204dd-68da-419f-a4be-ca1af597a638")
-		)
-		(pin "11"
-			(uuid "4f161cc6-0487-4268-ad6c-150730828b1a")
-		)
-		(pin "20"
-			(uuid "c2680a01-c45e-46ea-8e7a-5124175821d7")
-		)
-		(pin "9"
-			(uuid "4330b07b-b527-4887-89d7-4644e7860dd2")
-		)
-		(pin "2"
-			(uuid "1c8544f0-293c-42d9-96da-965eb92c75a5")
-		)
-		(pin "8"
-			(uuid "8715cf6c-ba09-41a9-8693-953a19303107")
-		)
-		(pin "16"
-			(uuid "587e7c5b-783e-4cf4-80ed-4004e900ef10")
-		)
-		(pin "17"
-			(uuid "84d8a5a1-0eb0-4b51-870f-2f1d6814103c")
-		)
-		(pin "3"
-			(uuid "70044fb3-65fa-403d-ae72-0d2beb93c2e2")
-		)
-		(pin "5"
-			(uuid "c26c2f4c-0dd2-4212-ae51-8750c2df5f26")
-		)
-		(pin "1"
-			(uuid "1c44ad72-724d-4759-b556-3b32007b4f84")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "U601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "191c5819-d87c-433f-8c73-7da058ad431e")
-		(property "Reference" "R605"
-			(at 101.6 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 101.6 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 100.838 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bb2744d-605c-4cf7-b0f4-107903bf6104")
-		)
-		(pin "2"
-			(uuid "1f55853e-7d76-4881-93b2-f38d21fd5880")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R605")
+					(reference "C607")
 					(unit 1)
 				)
 			)
@@ -3851,7 +2727,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 97.79 0)
+		(at 77.47 87.63 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3859,9 +2736,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "24cae698-b2cb-40e8-a8fc-62946fee5317")
-		(property "Reference" "C605"
-			(at 195.58 96.5199 0)
+		(uuid "4624ad9c-5870-48fc-957d-f47be7dbbed0")
+		(property "Reference" "C610"
+			(at 73.66 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3871,8 +2748,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1nF"
-			(at 195.58 99.0599 0)
+		(property "Value" "10nF"
+			(at 73.66 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3883,7 +2760,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 192.7352 101.6 0)
+			(at 76.5048 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 97.79 0)
+			(at 77.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +2782,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 97.79 0)
+			(at 77.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +2793,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 197.358 101.6 0)
+			(at 71.882 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3926,44 +2803,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7339c6f-eb19-43b2-812b-28677e5e2f0a")
+			(uuid "305645dc-f86e-4e19-8b68-da8579e1363f")
 		)
 		(pin "1"
-			(uuid "becb7497-a23c-43cd-ac3a-0f1f39e68ef9")
+			(uuid "f1f187c1-ccbe-4d65-b183-f0bd4d0203ed")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "C605")
+					(reference "C610")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 138.43 270)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 64.77 87.63 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "26b51abe-0103-4789-8308-5b1fcb0994b8")
-		(property "Reference" "TP601"
-			(at 87.63 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_UH"
-			(at 73.66 138.43 90)
+		(dnp no)
+		(uuid "4d05aba0-10e5-41cb-a620-a6c62d1e0828")
+		(property "Reference" "C609"
+			(at 60.96 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3973,8 +2840,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 133.35 0)
+		(property "Value" "1nF"
+			(at 60.96 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.8048 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +2863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 133.35 0)
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,8 +2873,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 68.58 138.43 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4005,55 +2883,68 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Voltage" "16V"
+			(at 59.182 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45c943e3-a73c-4833-a3be-8da50fd92f8e")
 		)
 		(pin "1"
-			(uuid "669fa031-d58f-4909-9fc3-474f1b8b8bf0")
+			(uuid "9e494b57-c285-4cee-b4d7-1ae2c6c5c210")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP601")
+					(reference "C609")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 191.77 77.47 180)
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 151.13 93.98 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d00cac5-33d1-443f-b81e-0432a407893a")
-		(property "Reference" "R607"
-			(at 194.31 76.1999 0)
+		(uuid "70df4477-51b6-4158-9078-09bc0878b58b")
+		(property "Reference" "#PWR0619"
+			(at 151.13 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "150m"
-			(at 194.31 78.7399 0)
+		(property "Value" "GND"
+			(at 151.13 97.79 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 193.548 77.47 90)
+		(property "Footprint" ""
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,7 +2955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 77.47 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,8 +2965,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 191.77 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4086,15 +2977,182 @@
 			)
 		)
 		(pin "1"
-			(uuid "7353a918-0d10-422b-abdc-8a49452548c4")
-		)
-		(pin "2"
-			(uuid "61e922eb-1045-4057-b847-e76d4c2a241c")
+			(uuid "565bc628-2f32-4a5f-9a3b-b0abb4deb3f9")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R607")
+					(reference "#PWR0619")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:5V")
+		(at 87.63 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723ca9be-798e-40e7-bbaa-4399f4db2689")
+		(property "Reference" "#PWR0624"
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 87.63 57.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 87.63 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aad234b-14e4-453f-b6de-d6a83ea0add9")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "#PWR0624")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 38.1 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d10e83d-e49a-429f-b26a-177f3e2dfa5e")
+		(property "Reference" "C608"
+			(at 140.97 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 140.97 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 143.8148 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 139.192 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "62041d99-8bf8-4bb6-8c92-404666693e6d")
+		)
+		(pin "1"
+			(uuid "8d464867-6a68-4190-93f5-6f9e35ec46b9")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "C608")
 					(unit 1)
 				)
 			)
@@ -4102,7 +3160,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 196.85 46.99 0)
+		(at 175.26 64.77 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4112,9 +3170,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34c52bf4-3988-4266-a635-4db0545377b7")
+		(uuid "90e019b4-3bf6-429c-8bc7-12c05fc74d51")
 		(property "Reference" "J101"
-			(at 196.215 39.37 0)
+			(at 174.625 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4124,7 +3182,7 @@
 			)
 		)
 		(property "Value" "BLDC"
-			(at 196.215 41.91 0)
+			(at 174.625 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4134,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical"
-			(at 196.85 46.99 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 46.99 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +3214,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 196.85 46.99 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,13 +3225,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "4def03c8-b355-4a59-830e-0a10b710ae3b")
+			(uuid "351c0fc1-a343-45b9-ad28-f334b01f025c")
 		)
 		(pin "1"
-			(uuid "533e5cf5-b732-4302-a0a9-e34443373947")
+			(uuid "a68597f3-1c14-4270-814c-f1926926f01e")
 		)
 		(pin "3"
-			(uuid "65502f8d-edf6-4ac2-a061-07c77811f31a")
+			(uuid "7f10046a-48dc-4a04-8410-aa386e6c238a")
 		)
 		(instances
 			(project "HaptiCAD_base"
@@ -4185,1545 +3243,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 146.05 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "392e1499-afd4-435e-a9d9-091fa523ebea")
-		(property "Reference" "TP603"
-			(at 87.63 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_VH"
-			(at 73.66 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f63d440-84d8-4dc5-898c-168335f8643d")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4a4301be-3e49-4e86-b9c7-42eadfb8df7a")
-		(property "Reference" "R602"
-			(at 71.12 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 71.12 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 70.358 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85c5ad39-c296-48be-bc4c-0af9abf5ada8")
-		)
-		(pin "2"
-			(uuid "503034e8-db81-48ac-a45b-4c0629a081e5")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 191.77 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e2e1d11-c6bf-4daa-a567-f7f9d1413256")
-		(property "Reference" "#PWR0609"
-			(at 191.77 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 87.63 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc6cf443-fb84-4935-ad82-cd8aa58c7105")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0609")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 242.57 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61a4ae2c-7104-4959-b6e7-adabdba00707")
-		(property "Reference" "#PWR0614"
-			(at 242.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 71.12 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c2986bf-8710-4046-be82-aec6a912df34")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0614")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 209.55 106.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "682be860-3c05-41d3-b55b-89dc945d9240")
-		(property "Reference" "R608"
-			(at 212.09 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 212.09 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 211.328 106.68 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73ef84c3-3b5d-4b3f-84b4-d6a57709f29f")
-		)
-		(pin "2"
-			(uuid "8a8cf032-7431-4d8a-b423-21be7683200c")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R608")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 209.55 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69684518-a8a4-4e99-ade6-f45b87b9aa23")
-		(property "Reference" "#PWR0611"
-			(at 209.55 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 116.84 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5335f3d-c9c8-4e12-a490-a7c6272a3885")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0611")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 162.56 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "6cd92f56-478c-4573-b166-7cae76fd1dc2")
-		(property "Reference" "TP608"
-			(at 87.63 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_DIAG"
-			(at 73.66 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50c31657-9cec-4502-9a15-877bb63ee787")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP608")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 223.52 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e657cf2-a13b-40b0-9537-29c9e5bb0a27")
-		(property "Reference" "#PWR0613"
-			(at 223.52 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 88.9 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2626935-4d99-4520-9a5f-f6503d943115")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0613")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 168.91 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "709c0514-99af-4463-87c6-7e19143e6cb7")
-		(property "Reference" "TP609"
-			(at 87.63 168.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_U"
-			(at 73.66 168.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0720a136-492e-4104-b872-16c272915283")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP609")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LMV321")
-		(at 226.06 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7198ee0e-63d2-4f9f-9be5-6108edc88198")
-		(property "Reference" "U602"
-			(at 236.22 68.5098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV321"
-			(at 236.22 71.0498 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 226.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 226.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
-			(at 226.06 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "681a1b1b-ebeb-4963-9067-44ed93069a23")
-		)
-		(pin "3"
-			(uuid "1bbb5c67-0624-4300-be70-db349acabbd0")
-		)
-		(pin "2"
-			(uuid "27719a18-dbf1-4405-91a4-67bb4c9f75d2")
-		)
-		(pin "4"
-			(uuid "d3fc8b12-aaaf-4bdc-80d7-cc12742f28b5")
-		)
-		(pin "5"
-			(uuid "ad039278-7198-4feb-bbad-8c6a95557a0a")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "U602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e575472-3e95-4782-aa83-a356f8646cf1")
-		(property "Reference" "C601"
-			(at 111.76 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 111.76 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 108.9152 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 113.538 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4fc6efa1-65da-4826-b276-3e54d99f2423")
-		)
-		(pin "1"
-			(uuid "1fdb086b-7c79-4f97-8fe1-45c153673f6c")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "C601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 58.42 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80a2d9c8-534c-47a5-8cc9-09b8bca89568")
-		(property "Reference" "#PWR0601"
-			(at 58.42 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 96.52 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0491e644-4c2a-48b8-aaab-8f771ae081ee")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 231.14 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "89afaa61-4df2-481f-84aa-c463861abb1b")
-		(property "Reference" "C606"
-			(at 231.14 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1nF"
-			(at 231.14 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 234.95 62.5348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 231.14 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c9dddd25-86ff-44e6-a3b4-c78f082ae125")
-		)
-		(pin "1"
-			(uuid "b30580bd-9c43-4571-b967-3da424eff529")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "C606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "90dbcc3e-eb43-4530-b454-08bc8d97eab0")
-		(property "Reference" "R601"
-			(at 60.96 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 60.96 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.198 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8ebcfeb-1410-4af0-8d80-11b56eb3257e")
-		)
-		(pin "2"
-			(uuid "010c4478-0030-45da-9fbb-5f081b94161b")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 121.92 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "919a3b13-952d-4648-b651-06c5e0996a20")
-		(property "Reference" "#PWR0604"
-			(at 121.92 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 49.53 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3559cd8a-7adb-460c-a4d3-b5015305dc96")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "943c15a7-cae4-4611-9476-fd09bf76dfc2")
-		(property "Reference" "R604"
-			(at 91.44 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 91.44 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.678 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8205031d-a39d-4ef5-a584-e7093c9ea313")
-		)
-		(pin "2"
-			(uuid "5b5d2644-2c48-42a4-9b05-be0660186003")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 191.77 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a42d43fa-5f3a-4b33-b982-123a4a10ed84")
-		(property "Reference" "TP607"
-			(at 194.31 62.7379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Cur_sens"
-			(at 194.31 65.2779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 196.85 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 191.77 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6d980b8-e191-437a-b92c-48727b155e4a")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 223.52 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a4f94226-a9c5-4440-8742-985e4c07b51d")
-		(property "Reference" "R609"
-			(at 223.52 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "18k"
-			(at 223.52 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 223.52 97.282 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 223.52 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42c17b0c-ff80-48a0-8a9d-0e9fbaf6c826")
-		)
-		(pin "2"
-			(uuid "87a3221a-f87e-4ea0-9402-d31d2742e1ed")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R609")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 134.62 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1f8cd51-c13c-4b99-b1a0-d869aa05193c")
-		(property "Reference" "#PWR0607"
-			(at 134.62 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 49.53 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f371f0d9-032a-4c26-9385-356d19378b79")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 128.27 78.74 0)
+		(at 77.47 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5732,9 +3253,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf787efe-5556-4dcb-9349-f634c91bed78")
-		(property "Reference" "#PWR0605"
-			(at 128.27 82.55 0)
+		(uuid "9590b97a-4a3a-402c-954e-586263b7796a")
+		(property "Reference" "#PWR0623"
+			(at 77.47 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +3266,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 128.27 74.93 0)
+			(at 77.47 64.77 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5755,7 +3276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 78.74 0)
+			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,7 +3287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 78.74 0)
+			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,7 +3298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 128.27 85.09 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5788,636 +3309,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec615fe1-13dc-4e17-a459-8b5fe1de9982")
+			(uuid "00c9af3a-36a4-4932-b5da-b4bdaa11b145")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 148.59 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "c0bb0359-19a3-48eb-80b7-feef89e68d96")
-		(property "Reference" "TP604"
-			(at 87.63 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_VL"
-			(at 73.66 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a387f9c-b76a-47a2-abde-5ccc7f7a38c3")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 153.67 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "c233ac68-cf74-4997-a64f-1523fcf3d02a")
-		(property "Reference" "TP605"
-			(at 87.63 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_WH"
-			(at 73.66 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43770f0a-5633-4d30-afa9-3869bdb2f64f")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 223.52 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4d9bce6-e9cb-44c4-8ca9-f5706245ddbd")
-		(property "Reference" "#PWR0612"
-			(at 223.52 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 223.52 58.42 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 223.52 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a55e301-b905-4621-b295-61f0a664d628")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0612")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 107.95 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e1d239-7ce4-4ce2-a299-c2719cfa229e")
-		(property "Reference" "#PWR0603"
-			(at 107.95 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 49.53 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d2cab4a-037e-4599-ba61-128c9b47edc9")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 171.45 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "cf9da87d-d54d-4f56-b589-3d885b9f8e9d")
-		(property "Reference" "TP610"
-			(at 87.63 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_V"
-			(at 73.66 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "049a0ca5-a2fe-4ae1-96f4-8de0e7641677")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP610")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 156.21 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "d441301a-b3f2-4569-9107-147dce08449a")
-		(property "Reference" "TP606"
-			(at 87.63 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_WL"
-			(at 73.66 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ceca3593-8796-43cb-85bb-f8702b128472")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 173.99 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "dc92222e-765b-4988-b926-a10c0d821657")
-		(property "Reference" "TP611"
-			(at 87.63 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_W"
-			(at 73.66 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78bc97fd-567f-4cef-ae33-24fee92ee77d")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP611")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 128.27 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e30a3abe-61a0-4bd8-858c-9518bdacbbb1")
-		(property "Reference" "#PWR0606"
-			(at 128.27 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 107.95 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "596aa2ea-4238-4456-a9bd-4c75ff6626e7")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0606")
+					(reference "#PWR0623")
 					(unit 1)
 				)
 			)
@@ -6425,18 +3322,18 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 85.09 180)
+		(at 77.47 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3d2dd51-9732-4554-abd5-6ba9571d9e9d")
-		(property "Reference" "R606"
-			(at 111.76 83.8199 0)
+		(uuid "a8162695-4232-4d7d-8ba2-a18cf89eaaef")
+		(property "Reference" "R611"
+			(at 80.01 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6446,8 +3343,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 111.76 86.3599 0)
+		(property "Value" "18k"
+			(at 80.01 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6458,7 +3355,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 110.998 85.09 90)
+			(at 79.248 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +3366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 85.09 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,7 +3377,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 109.22 85.09 0)
+			(at 77.47 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6491,114 +3388,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "03b262e9-5258-4d36-8c2c-33fe4c39cb55")
+			(uuid "842879f0-adc1-4a8e-99bc-bac02b5ceed4")
 		)
 		(pin "2"
-			(uuid "e2278525-9279-426c-bf4a-2b005a475fa8")
+			(uuid "25b3e952-4042-4e00-ac29-c9aed9398bab")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "R606")
+					(reference "R611")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 134.62 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e7cdc464-1692-40a9-b6e5-f90e428350bf")
-		(property "Reference" "C604"
-			(at 138.43 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1nF"
-			(at 138.43 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.5852 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 140.208 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f916aaa0-b80b-4cf5-beb6-5ad96f513723")
-		)
-		(pin "1"
-			(uuid "85a75f7b-9c8e-4f7f-90ae-964640395e20")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "C604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 191.77 104.14 0)
+		(lib_id "Driver_Motor:STSPIN233")
+		(at 133.35 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6607,97 +3413,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed2b984c-0986-4dd4-b4e6-303ecc9df59c")
-		(property "Reference" "#PWR0610"
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 107.95 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d25a1227-4c4c-4e2f-9d5b-02b4ac163cfc")
-		)
-		(instances
-			(project "HaptiCAD_base"
-				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "#PWR0610")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 140.97 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "fee9a33e-199f-4b0d-b987-48706cf48d37")
-		(property "Reference" "TP602"
-			(at 87.63 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOT_UL"
-			(at 73.66 140.97 90)
+		(uuid "acc7efcf-b701-4872-aa32-9f1b687ec9c2")
+		(property "Reference" "U4"
+			(at 135.4933 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6707,8 +3425,225 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 68.58 135.89 0)
+		(property "Value" "STSPIN233"
+			(at 135.4933 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
+			(at 138.43 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "www.st.com/resource/en/datasheet/stspin233.pdf"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low voltage three phase and three sense motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package"
+			(at 133.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "7d04e571-53fe-4541-9596-092c61a5f837")
+		)
+		(pin "15"
+			(uuid "0613f68f-9c70-45c4-9369-6fd62e6eaf5a")
+		)
+		(pin "16"
+			(uuid "04c9c92c-50b0-41ee-b98b-6742d541e713")
+		)
+		(pin "17"
+			(uuid "ba3d2986-10dd-47b5-840a-6ff88573222e")
+		)
+		(pin "12"
+			(uuid "c28c9e7b-f906-4247-9957-396835fe7d00")
+		)
+		(pin "14"
+			(uuid "88d6e576-5db8-4636-a4e3-3f472972e790")
+		)
+		(pin "13"
+			(uuid "d213ce7d-fedd-437a-a51f-285c291781a5")
+		)
+		(pin "4"
+			(uuid "c02fa426-8522-4f42-849b-17f12b31bd86")
+		)
+		(pin "5"
+			(uuid "4316cce6-88c1-4fc4-a3e1-3cda62c77005")
+		)
+		(pin "6"
+			(uuid "58e4ea59-a8ab-4d59-b3f8-bce61516022d")
+		)
+		(pin "9"
+			(uuid "461fee9e-905f-48ab-ac2a-37ffe08d657f")
+		)
+		(pin "10"
+			(uuid "a655cebd-57c3-44bb-bdb5-057328e74bc1")
+		)
+		(pin "7"
+			(uuid "13201fd4-6df6-4e75-8530-7301b08b4048")
+		)
+		(pin "1"
+			(uuid "129a967e-8009-43c0-9674-5078b6e04d7e")
+		)
+		(pin "2"
+			(uuid "c500bc20-d88f-4663-b4bc-3c91a3aeaba9")
+		)
+		(pin "8"
+			(uuid "b01c126a-4740-4f90-b752-5b8cd1cab93a")
+		)
+		(pin "3"
+			(uuid "e9d672c1-5a6b-4a16-a059-3fc22ab05f5d")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca162c44-3853-4ae9-acf1-b8439957bc0b")
+		(property "Reference" "D302"
+			(at 91.44 73.025 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAULT"
+			(at 92.71 75.565 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4dcdffb4-634a-4efc-8089-f2e2ba5db0fe")
+		)
+		(pin "2"
+			(uuid "99292b06-53ec-46bc-8855-3bf41a28c7b8")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
+					(reference "D302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebeeded4-6ee4-4aa7-8653-04c249116760")
+		(property "Reference" "R610"
+			(at 67.31 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "18k"
+			(at 67.31 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.548 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6719,7 +3654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 135.89 0)
+			(at 64.77 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6729,8 +3664,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 68.58 140.97 0)
+		(property "Description" "Resistor"
+			(at 64.77 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6741,12 +3676,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a9da67f-2184-45be-8e2e-1724cbd88c2d")
+			(uuid "afb8792a-18fa-46f6-a944-30a7de9f189b")
+		)
+		(pin "2"
+			(uuid "b46392f3-7162-4005-9949-293ece61d027")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/4b1aecd0-745c-478c-8a7d-60a4da5ea643"
-					(reference "TP602")
+					(reference "R610")
 					(unit 1)
 				)
 			)

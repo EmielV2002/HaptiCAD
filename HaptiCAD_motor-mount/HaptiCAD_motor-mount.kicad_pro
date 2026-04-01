@@ -1007,7 +1007,7 @@
         "uuid": "09c102b8-dfc1-4666-b1e2-d0c53b401993"
       }
     ],
-    "used_designators": "U401,U501,MH1,#PWR401-404,#PWR409-412,#PWR501-509,C401,C501-502,JP401,#FLG501,R403-406,TP406,TP501-503",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

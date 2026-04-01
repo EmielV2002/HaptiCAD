@@ -1036,7 +1036,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Led ring around knob"
+	(text_box "Led ring"
 		(exclude_from_sim no)
 		(at 16.51 52.07 0)
 		(size 265.43 97.79)

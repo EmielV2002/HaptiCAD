@@ -559,7 +559,7 @@
         "tuning_profile": ""
       },
       {
-        "name": "SW",
+        "name": "SWD",
         "pcb_color": "rgb(132, 0, 0)",
         "priority": 0,
         "schematic_color": "rgb(132, 0, 0)",
@@ -704,40 +704,112 @@
         "pattern": "/Motor driver/MOT_W"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/COL_1"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/COL_2"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/COL_3"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/COL_4"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/ROW_1"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/ROW_2"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/ROW_3"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/ROW_4"
       },
       {
-        "netclass": "SW",
+        "netclass": "SWD",
         "pattern": "/Switches/ROW_5"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/EN_U"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/PWM_U"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/PWM_W"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/EN_W"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/PWM_V"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/EN_V"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/~{MOT_SHDN}"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/Motor driver/EN{slash}FAULT"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/USB_CC1"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/USB_CC2"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/S(CL2|DA2)"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/S(CL1|DA1)"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Sensors/S(CL0|DA0)"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/I2C1_S(CL|DA)"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "Vmot"
+      },
+      {
+        "netclass": "MOT",
+        "pattern": "/MCU/(TIM1_CH1|TIM1_CH1N|TIM1_CH2|TIM1_CH2N|TIM1_CH3|TIM1_CH3N|~{MOT_SHDN})"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/MCU/(SPI1_CIPO|SPI1_SCK|~{ENC_CS})"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/MCU/(SWD_CLK|SWD_DIO|~{RESET})"
       }
     ]
   },
@@ -1007,7 +1079,7 @@
         "uuid": "09c102b8-dfc1-4666-b1e2-d0c53b401993"
       }
     ],
-    "used_designators": "U601-602,MH1,#PWR601-614,C601-606,R601-609,J101,TP601-611",
+    "used_designators": "U3,U6-7,D1,D202,#PWR6,#PWR412-425,#PWR515-520,C8-15,#FLG502,J4-5,R305,R403-408,R614",
     "variants": []
   },
   "sheets": [
@@ -1036,16 +1108,8 @@
       "Motor driver"
     ],
     [
-      "4d73b7c1-8f89-4c7f-aba6-18c4e8cd91de",
-      "Switches"
-    ],
-    [
       "f505cfea-b29a-4948-bb0a-48341138c985",
       "MCU"
-    ],
-    [
-      "1a999a9f-67af-4b14-843e-6d414fc036ec",
-      "LCD"
     ]
   ],
   "text_variables": {},
