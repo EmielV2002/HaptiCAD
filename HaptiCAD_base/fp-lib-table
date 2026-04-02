@@ -4,4 +4,6 @@
 	(lib (name "BMD-340-A-R") (type "KiCad") (uri "D:/Github-repositories/HaptiCAD/lib/BMD-340-A-R/footprints.pretty") (options "") (descr ""))
 	(lib (name "BLDC_mount") (type "KiCad") (uri "D:/Github-repositories/HaptiCAD/lib/BLDC_mount/BLDC_mount.pretty") (options "") (descr ""))
 	(lib (name "PCA9546A") (type "KiCad") (uri "D:/Github-repositories/HaptiCAD/lib/PCA9546A/PCA9546A.pretty") (options "") (descr ""))
+	(lib (name "VEML7700-TT") (type "KiCad") (uri "D:/Github-repositories/HaptiCAD/lib/VEML7700/VEML7700-TT/VEML7700-TT.footprints") (options "") (descr ""))
+	(lib (name "VEML7700-TR") (type "KiCad") (uri "D:/Github-repositories/HaptiCAD/lib/VEML7700/VEML7700-TR/VEML7700-TR.footprints") (options "") (descr ""))
 )

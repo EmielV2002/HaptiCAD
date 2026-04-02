@@ -517,14 +517,14 @@
         "wire_width": 6
       },
       {
-        "name": "3.3V",
+        "name": "+3V3",
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 6,
         "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": ""
       },
       {
-        "name": "5V",
+        "name": "+5V",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 7,
         "schematic_color": "rgb(255, 0, 0)",
@@ -580,20 +580,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "3.3V",
-        "pattern": "GND"
-      },
-      {
         "netclass": "GND",
         "pattern": "GND"
-      },
-      {
-        "netclass": "5V",
-        "pattern": "5V"
-      },
-      {
-        "netclass": "3.3V",
-        "pattern": "3.3V"
       },
       {
         "netclass": "USB",
@@ -632,66 +620,6 @@
         "pattern": "/Sensors/ENC__~{CS}"
       },
       {
-        "netclass": "SPI",
-        "pattern": "/LCD/LCD_SCK"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/LCD/LCD_MOSI"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/LCD/LCD_~{CS}"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/SD_~{CS}"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/SD_MOSI"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/SD_CLK"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/MCU/SD_MISO"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_UH"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_UL"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_VH"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_VL"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_WH"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_WL"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_DIAG"
-      },
-      {
-        "netclass": "MOT",
-        "pattern": "/Motor driver/MOT_SENS"
-      },
-      {
         "netclass": "MOT",
         "pattern": "/Motor driver/MOT_U"
       },
@@ -702,42 +630,6 @@
       {
         "netclass": "MOT",
         "pattern": "/Motor driver/MOT_W"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/COL_1"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/COL_2"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/COL_3"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/COL_4"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/ROW_1"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/ROW_2"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/ROW_3"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/ROW_4"
-      },
-      {
-        "netclass": "SWD",
-        "pattern": "/Switches/ROW_5"
       },
       {
         "netclass": "MOT",
@@ -796,10 +688,6 @@
         "pattern": "/MCU/I2C1_S(CL|DA)"
       },
       {
-        "netclass": "5V",
-        "pattern": "Vmot"
-      },
-      {
         "netclass": "MOT",
         "pattern": "/MCU/(TIM1_CH1|TIM1_CH1N|TIM1_CH2|TIM1_CH2N|TIM1_CH3|TIM1_CH3N|~{MOT_SHDN})"
       },
@@ -810,6 +698,18 @@
       {
         "netclass": "SWD",
         "pattern": "/MCU/(SWD_CLK|SWD_DIO|~{RESET})"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "VMOT"
       }
     ]
   },
@@ -1079,7 +979,7 @@
         "uuid": "09c102b8-dfc1-4666-b1e2-d0c53b401993"
       }
     ],
-    "used_designators": "U3,U6-7,D1,D202,#PWR6,#PWR412-425,#PWR515-520,C8-15,#FLG502,J4-5,R305,R403-408,R614",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
