@@ -1486,6 +1486,7 @@
 		)
 		(embedded_fonts no)
 		(model "D:/Github-repositories/HaptiCAD/lib/BLDC_mount/BLDC_mount.pretty/2804-motor.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 12)
 			)
