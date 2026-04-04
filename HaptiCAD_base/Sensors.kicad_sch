@@ -5283,7 +5283,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Ambient light sensor - testpoints"
+	(text_box "I2C - testpoints"
 		(exclude_from_sim no)
 		(at 26.67 87.63 0)
 		(size 69.85 16.51)
@@ -6475,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 148.59) (xy 40.64 151.13)
+			(xy 40.64 149.86) (xy 40.64 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6862,7 +6862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b1c7c5-2cf3-4eae-b8c2-f0f84abe4575")
-		(property "Reference" "C23"
+		(property "Reference" "C405"
 			(at 146.05 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6925,6 +6925,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed0cd76d-2ceb-4913-b062-26806c23a210")
 		)
@@ -6934,7 +7033,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "C23")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -6952,7 +7051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07c7cdfb-7447-46fe-8211-66315a5f9e0d")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0410"
 			(at 152.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +7111,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR082")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -7030,7 +7129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0844b850-2d5c-47fe-8144-9060e8cea3c4")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0402"
 			(at 123.19 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7090,7 +7189,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR074")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -7109,7 +7208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f767eaf-da13-4811-986d-27474dbb2bab")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0406"
 			(at 83.82 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7169,7 +7268,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR073")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -7187,7 +7286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15d64c0e-1b6c-42ff-bdc2-51c04ad0d990")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0408"
 			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7247,7 +7346,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR081")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -7265,7 +7364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa230af-cb9a-4147-8c8c-3a3c8e268b47")
-		(property "Reference" "C21"
+		(property "Reference" "C401"
 			(at 146.05 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7328,6 +7427,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c52db4a-06fa-4a93-8884-bbaa31ffce38")
 		)
@@ -7337,7 +7535,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "C21")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -7355,7 +7553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e0902fe-cbf2-4ff1-a725-97c72362ea0a")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0411"
 			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7415,7 +7613,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR078")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2086ba64-76c0-4d18-9f6d-6707415f044f")
-		(property "Reference" "TP3"
+		(property "Reference" "TP402"
 			(at 40.64 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7486,13 +7684,112 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 53.34 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36588dfc-528f-4e6f-81d8-5e0f48e254b3")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "TP3")
+					(reference "TP402")
 					(unit 1)
 				)
 			)
@@ -7510,7 +7807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ae97ee6-1783-4218-9c23-5ddea08a3c33")
-		(property "Reference" "R11"
+		(property "Reference" "R409"
 			(at 130.81 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,6 +7862,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e07d70b-3da3-426a-a6b6-f8de75e6498a")
 		)
@@ -7574,7 +7970,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R11")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -7592,7 +7988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e20aeb2-4e5f-4e36-92fc-0a0f14030275")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0404"
 			(at 140.97 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7652,7 +8048,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR077")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -7670,7 +8066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3400b69f-0155-4578-95bc-58f9dd641ae1")
-		(property "Reference" "U2"
+		(property "Reference" "U404"
 			(at 49.53 133.35 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7715,6 +8111,105 @@
 			)
 		)
 		(property "Description" "4-channel I2C-bus switch with reset"
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 62.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 62.23 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7779,7 +8274,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "U2")
+					(reference "U404")
 					(unit 1)
 				)
 			)
@@ -7797,7 +8292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "349f83ac-4d31-4bce-8e48-aec49b14f576")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0421"
 			(at 152.4 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7857,7 +8352,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR085")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -7875,7 +8370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b8b855-a202-43ac-9cc9-79d17544ce26")
-		(property "Reference" "U6"
+		(property "Reference" "U405"
 			(at 160.02 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,6 +8425,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "7f1766ad-fdcf-4ef3-813e-94561bc1db12")
 		)
@@ -7951,7 +8545,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "U6")
+					(reference "U405")
 					(unit 1)
 				)
 			)
@@ -7969,7 +8563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "408b078c-3c0b-40bd-ac92-436dc140f6b9")
-		(property "Reference" "U4"
+		(property "Reference" "U402"
 			(at 160.02 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8024,6 +8618,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "2c94f172-fce8-4acd-ab92-c7d8055c6957")
 		)
@@ -8045,7 +8738,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "U4")
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -8064,7 +8757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a26057-a195-4f8f-aea8-3f71a652b7d3")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0407"
 			(at 80.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8124,7 +8817,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR071")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -8142,7 +8835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a1bc396-2228-4baf-920c-db83a245a67d")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0418"
 			(at 140.97 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8202,7 +8895,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR079")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -8221,7 +8914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "669f7f06-bca0-4658-825e-18a8021ad169")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0405"
 			(at 83.82 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8281,7 +8974,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR072")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -8299,7 +8992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "749cec31-aba0-4bb1-9db0-8d6c76129146")
-		(property "Reference" "U5"
+		(property "Reference" "U403"
 			(at 160.02 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8354,6 +9047,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4e850f2a-41bf-4698-9333-209b8b577a36")
 		)
@@ -8375,7 +9167,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "U5")
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -8393,7 +9185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9afaeb-9699-41d7-b9ff-7d24073e98c0")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0412"
 			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +9245,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR068")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -8471,7 +9263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8498c5e6-899d-4036-b9b0-9f248fa4489e")
-		(property "Reference" "C22"
+		(property "Reference" "C403"
 			(at 146.05 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,6 +9326,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "584d1e73-08e0-4a83-994d-a264f5905f88")
 		)
@@ -8543,7 +9434,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "C22")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -8562,7 +9453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ceb2d77-acc1-461f-a335-26b2e5bb051c")
-		(property "Reference" "C19"
+		(property "Reference" "C404"
 			(at 68.58 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,6 +9516,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 68.58 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a600221-4efe-4bf4-a8e3-0a0b63659375")
 		)
@@ -8634,7 +9624,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "C19")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -8652,7 +9642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "959181bb-19e6-42e8-be24-58d1bea63bca")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0409"
 			(at 123.19 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8712,7 +9702,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR075")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -8730,7 +9720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0f3ce5-f2f0-4a29-ac2c-fee6fc64e593")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0419"
 			(at 40.64 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8790,7 +9780,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR066")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -8808,7 +9798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a28cae-632d-4f68-bbeb-c757ec9ec38e")
-		(property "Reference" "R7"
+		(property "Reference" "R405"
 			(at 120.65 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,6 +9853,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.11 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86c7927b-2ed7-4c09-8c5f-56b48a9544b3")
 		)
@@ -8872,7 +9961,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R7")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -8880,7 +9969,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 40.64 148.59 0)
+		(at 40.64 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8890,8 +9979,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c0d440-d740-4dfc-9391-6184038dd209")
-		(property "Reference" "#PWR065"
-			(at 40.64 152.4 0)
+		(property "Reference" "#PWR0417"
+			(at 40.64 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8902,7 +9991,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.64 143.51 0)
+			(at 40.64 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8912,7 +10001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 148.59 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8923,7 +10012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 148.59 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8934,7 +10023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 148.59 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8950,7 +10039,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR065")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -8969,7 +10058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d2527e-36f4-491d-8ec7-c17a8da141d7")
-		(property "Reference" "R3"
+		(property "Reference" "R401"
 			(at 38.1 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,6 +10113,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "964675a4-c65a-4b3c-89a6-d904cb548d01")
 		)
@@ -9033,7 +10221,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R3")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -9051,7 +10239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa44bebe-ff48-4ed5-8bea-bd75cbb64be5")
-		(property "Reference" "R9"
+		(property "Reference" "R404"
 			(at 130.81 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9106,6 +10294,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1f21d3e-8950-452b-85a4-481d82705968")
 		)
@@ -9115,7 +10402,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R9")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -9133,7 +10420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf24454-fe7d-401f-8194-727cb0fb015e")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0420"
 			(at 62.23 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9193,7 +10480,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR069")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -9211,7 +10498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4a9c84-0c51-4048-9755-50df6c13d672")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0416"
 			(at 152.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9271,7 +10558,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR084")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -9289,7 +10576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be692b5f-d317-4a89-b3db-18419834ba87")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0413"
 			(at 152.4 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9349,7 +10636,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR083")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -9368,7 +10655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c10d1537-08a5-4042-a01e-3bbc3b9bab82")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0401"
 			(at 45.72 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9428,7 +10715,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR067")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -9446,7 +10733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4624338-216d-4e82-afa9-e3b2132251f0")
-		(property "Reference" "R8"
+		(property "Reference" "R408"
 			(at 120.65 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9501,6 +10788,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e716417-928c-463e-b193-49b5e9c40e5c")
 		)
@@ -9510,7 +10896,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R8")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -9527,7 +10913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7b3c483-e2cf-47cb-8d8c-b7a88716b178")
-		(property "Reference" "C20"
+		(property "Reference" "C402"
 			(at 87.63 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9592,6 +10978,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc941077-353c-4abf-8ace-03b021c50123")
 		)
@@ -9601,7 +11086,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "C20")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -9619,7 +11104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d040899c-2ac6-4d7f-b916-448a4e07f0df")
-		(property "Reference" "R4"
+		(property "Reference" "R407"
 			(at 43.18 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,6 +11159,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a881c771-96eb-4cd3-b942-311368c2ac38")
 		)
@@ -9683,7 +11267,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R4")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -9701,7 +11285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d16bc43a-cb56-4470-a473-9de35e5e9876")
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at 66.04 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,6 +11496,105 @@
 				(justify bottom)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "cb9c6454-26eb-455c-86ec-173730e6450e")
 		)
@@ -9927,7 +11610,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "U3")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -9946,7 +11629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7994749-a20f-4728-89f0-b7e1f2785dd1")
-		(property "Reference" "R5"
+		(property "Reference" "R402"
 			(at 48.26 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,6 +11684,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "643c10d7-ba71-42b7-ae5f-9742278fcc05")
 		)
@@ -10010,7 +11792,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R5")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -10027,7 +11809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db24a44c-9fff-4c38-a68c-c95e1139c236")
-		(property "Reference" "TP2"
+		(property "Reference" "TP401"
 			(at 40.64 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,13 +11863,112 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 53.34 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a173be7-b50c-4701-a8d0-2b1d759341d1")
 		)
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "TP2")
+					(reference "TP401")
 					(unit 1)
 				)
 			)
@@ -10106,7 +11987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e820a9ff-b763-493c-8407-350e7ecff84d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0414"
 			(at 73.66 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10166,7 +12047,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR070")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -10184,7 +12065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea73e78f-4c43-4b62-a9b6-0f1c5625b3dd")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0403"
 			(at 152.4 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +12125,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR080")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -10262,7 +12143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7064c03-163e-41c6-9f23-c1d7ea824820")
-		(property "Reference" "R6"
+		(property "Reference" "R403"
 			(at 120.65 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,6 +12198,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b11d9a59-9c0b-46ef-9d89-a40fead06e40")
 		)
@@ -10326,7 +12306,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R6")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -10344,7 +12324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7bc5483-1448-444d-bcb0-db9b271416d5")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0415"
 			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10404,7 +12384,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "#PWR076")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -10422,7 +12402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcfb1832-ebab-415c-a991-deeb57f1a1e0")
-		(property "Reference" "R10"
+		(property "Reference" "R406"
 			(at 130.81 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10477,6 +12457,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1ee4ba9-0fc4-4a3e-a050-6cac43edeb20")
 		)
@@ -10486,7 +12565,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/52269903-a6ad-4c58-b1b7-76b5aa66afda"
-					(reference "R10")
+					(reference "R406")
 					(unit 1)
 				)
 			)

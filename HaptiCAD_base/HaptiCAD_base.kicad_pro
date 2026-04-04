@@ -710,6 +710,10 @@
       {
         "netclass": "+5V",
         "pattern": "VMOT"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "VBUS"
       }
     ]
   },
@@ -730,8 +734,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
-      "sort_order": 0
+      "method": 1,
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -921,6 +925,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -979,7 +1007,7 @@
         "uuid": "09c102b8-dfc1-4666-b1e2-d0c53b401993"
       }
     ],
-    "used_designators": "",
+    "used_designators": "LED201-216,C201-217,C301,C401-405,C501-502,C601-606,C801-809,J101-103,J301,J801,R301-302,R401-409,R501,R601-603,R801-805,#FLG101-102,#FLG301,#FLG501,D301,D501,D601,D801,#PWR101-107,#PWR201-251,#PWR301-306,#PWR401-421,#PWR501-511,#PWR601-612,#PWR801-813,#SYM101-103,H101-104,S101,SW801-802,TP201,TP401-402,TP501-503,U201,U401-405,U501,U601,U801,Y801",
     "variants": []
   },
   "sheets": [

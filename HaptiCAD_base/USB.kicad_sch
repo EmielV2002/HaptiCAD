@@ -1657,6 +1657,260 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "USB"
 		(exclude_from_sim no)
@@ -1681,6 +1935,12 @@
 		(uuid "9adc500c-fcca-4880-b17e-3cf40a03a6f6")
 	)
 	(junction
+		(at 130.81 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c7e21f2-db5c-4bff-a3e6-9edda6a8028e")
+	)
+	(junction
 		(at 48.26 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1699,16 +1959,10 @@
 		(uuid "51c2363d-3484-4a65-ad8c-8b242916f7b0")
 	)
 	(junction
-		(at 130.81 50.8)
+		(at 102.87 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7604fab6-460c-4ca2-885c-1c9a749ab301")
-	)
-	(junction
-		(at 162.56 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7401758-503b-42ec-8698-84f8e07e87db")
+		(uuid "9acf7fe8-61f3-4ac0-9863-aed8abe12b4e")
 	)
 	(junction
 		(at 92.71 80.01)
@@ -1723,16 +1977,6 @@
 	(no_connect
 		(at 71.12 81.28)
 		(uuid "47f1bb0e-868a-482d-bf96-ebeb20803f02")
-	)
-	(wire
-		(pts
-			(xy 162.56 52.07) (xy 162.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06496491-5e77-47bf-8412-5a39ddcdc6ea")
 	)
 	(wire
 		(pts
@@ -1763,6 +2007,36 @@
 			(type default)
 		)
 		(uuid "163d986e-996e-4f8f-b69e-11cc993b2fa2")
+	)
+	(wire
+		(pts
+			(xy 102.87 50.8) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5312c8-455f-48dd-af90-0161baba6695")
+	)
+	(wire
+		(pts
+			(xy 102.87 50.8) (xy 102.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2328c5d1-33fe-40ba-80a5-efe1c6728850")
+	)
+	(wire
+		(pts
+			(xy 130.81 49.53) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b56270-03a9-4db6-8424-0c7508503f8c")
 	)
 	(wire
 		(pts
@@ -1816,26 +2090,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 49.53) (xy 162.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "509948ad-d1ae-46bb-8b14-5a309c6933fe")
-	)
-	(wire
-		(pts
-			(xy 71.12 50.8) (xy 130.81 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5163ce72-33a7-418f-99e3-bfffd6fcfa02")
-	)
-	(wire
-		(pts
 			(xy 87.63 58.42) (xy 87.63 71.12)
 		)
 		(stroke
@@ -1853,6 +2107,16 @@
 			(type default)
 		)
 		(uuid "5a140e66-9895-47a0-bc25-791678113b3b")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9b7760-c147-4c18-8792-9a79fae5f1f4")
 	)
 	(wire
 		(pts
@@ -1906,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 59.69) (xy 162.56 62.23)
+			(xy 102.87 60.96) (xy 102.87 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1923,16 +2187,6 @@
 			(type default)
 		)
 		(uuid "95c38efc-aefe-4dff-a1b1-8bd9b05bc28d")
-	)
-	(wire
-		(pts
-			(xy 130.81 50.8) (xy 130.81 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98fba386-79ba-4b36-8a54-ac575caa5555")
 	)
 	(wire
 		(pts
@@ -1976,16 +2230,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 50.8) (xy 130.81 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c287ac28-9041-4827-91c3-aa7ee8f4fc52")
-	)
-	(wire
-		(pts
 			(xy 72.39 63.5) (xy 71.12 63.5)
 		)
 		(stroke
@@ -2016,6 +2260,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 111.76) (xy 191.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62a2e5f-90cf-430f-9bb5-c97d4834412b")
+	)
+	(wire
+		(pts
 			(xy 87.63 78.74) (xy 87.63 80.01)
 		)
 		(stroke
@@ -2033,6 +2287,16 @@
 			(type default)
 		)
 		(uuid "f4317794-08b4-4bee-916b-1bc3dadb70ee")
+	)
+	(wire
+		(pts
+			(xy 102.87 50.8) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccd34ef-a76c-44b0-aa75-12cbe09e6c86")
 	)
 	(wire
 		(pts
@@ -2120,7 +2384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "242c710b-9c91-4c64-a4a3-13e4d301f785")
-		(property "Reference" "J5"
+		(property "Reference" "J301"
 			(at 55.88 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2140,7 +2404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-14"
 			(at 59.69 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2163,6 +2427,105 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 55.88 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2227,7 +2590,85 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "J5")
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 191.77 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8049eb-dae8-4071-8d69-a6bfab8c10e7")
+		(property "Reference" "#FLG0301"
+			(at 191.77 114.935 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 191.77 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc855afd-a1dd-46d6-97bd-cff2dfda787c")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
+					(reference "#FLG0301")
 					(unit 1)
 				)
 			)
@@ -2244,7 +2685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39c375f5-f57b-44dc-bb8c-3fbd2df17477")
-		(property "Reference" "D1"
+		(property "Reference" "D301"
 			(at 139.7 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2297,6 +2738,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "88d21b08-a51a-4ecb-9ead-78c33ed992ba")
 		)
@@ -2312,7 +2852,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "D1")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddbbf46-ec9a-4be5-ba00-666ef47d0d29")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0303"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2390,7 +2930,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "#PWR061")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f20f370-3410-469f-86e2-4d53eda483ee")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0304"
 			(at 130.81 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2468,7 +3008,85 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "#PWR062")
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 191.77 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6775a347-3c98-473c-9460-bc6325095b96")
+		(property "Reference" "#PWR0306"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 191.77 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51f9cdb0-73f6-4bea-abc7-8ff5d82a599a")
+		)
+		(instances
+			(project "HaptiCAD_base"
+				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -2486,7 +3104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "836f50d5-3162-4648-b96e-5b630583b111")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0305"
 			(at 48.26 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2546,7 +3164,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "#PWR060")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -2564,7 +3182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a8e323-5b03-4076-a79d-39bd0d93d164")
-		(property "Reference" "R2"
+		(property "Reference" "R302"
 			(at 100.33 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2619,6 +3237,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de369b85-47d8-4755-b387-5c09f02156b9")
 		)
@@ -2628,7 +3345,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "R2")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -2636,7 +3353,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 49.53 0)
+		(at 130.81 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2646,8 +3363,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dff897a6-cefe-41e8-9dc9-69566eecffb2")
-		(property "Reference" "#PWR063"
-			(at 162.56 53.34 0)
+		(property "Reference" "#PWR0301"
+			(at 130.81 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +3375,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 162.56 44.45 0)
+			(at 130.81 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2668,7 +3385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 49.53 0)
+			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 49.53 0)
+			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +3407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 49.53 0)
+			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +3423,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "#PWR063")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2714,7 +3431,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 62.23 0)
+		(at 102.87 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2724,8 +3441,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1852678-0799-4d94-b345-a72619f1de05")
-		(property "Reference" "#PWR064"
-			(at 162.56 68.58 0)
+		(property "Reference" "#PWR0302"
+			(at 102.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +3453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 66.04 0)
+			(at 102.87 67.31 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2746,7 +3463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 62.23 0)
+			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2757,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 62.23 0)
+			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +3485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 62.23 0)
+			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +3501,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "#PWR064")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -2802,7 +3519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a8265f-b6cc-426b-970b-29360867c638")
-		(property "Reference" "R1"
+		(property "Reference" "R301"
 			(at 90.17 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,6 +3574,105 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 87.63 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5f8bd94-89d3-453b-8122-62d18969c2e5")
 		)
@@ -2866,7 +3682,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "R1")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -2874,7 +3690,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 55.88 0)
+		(at 102.87 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2883,8 +3699,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f091fd40-c3fa-4ebf-95e3-f5f5cb14bf8d")
-		(property "Reference" "C18"
-			(at 166.37 54.6099 0)
+		(property "Reference" "C301"
+			(at 106.68 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2894,8 +3710,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 166.37 57.1499 0)
+		(property "Value" "0.1uF"
+			(at 106.68 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2906,7 +3722,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 163.5252 59.69 0)
+			(at 103.8352 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 55.88 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +3744,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 55.88 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,7 +3755,106 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 168.148 59.69 0)
+			(at 108.458 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 102.87 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2957,7 +3872,7 @@
 		(instances
 			(project "HaptiCAD_base"
 				(path "/09c102b8-dfc1-4666-b1e2-d0c53b401993/e939acba-a336-4e5f-bfb8-79d3cd46c7a7"
-					(reference "C18")
+					(reference "C301")
 					(unit 1)
 				)
 			)
