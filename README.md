@@ -1,2 +1,2 @@
 # HaptiCAD
-A PC peripheral bassed on the smartknob project by scottbez1.
+A PC peripheral based on the smartknob project by scottbez1.
